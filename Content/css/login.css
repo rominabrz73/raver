@@ -1,0 +1,138 @@
+.login-box
+		{
+		width: 350px;
+		background-color: #ffffff;
+		padding: 15px;
+		max-width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		font-size: 12px;}
+	.box-login input{
+			display:flex!important;
+			width:60%;
+		    border: solid rgba(0,0,0,0.2) 1px;
+			margin:30px auto;  
+			height: 50px;
+			
+			padding: 6px 15px 5px 15px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 10px;
+}
+.username-signupbox {
+    padding-left: 34px !important;
+    background-image:url(../images/Icon@2x.png);
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+}
+
+.password-signupbox{
+	width:100% !important;
+	padding-left: 34px !important;
+    background-image: url(../images/Lock.png);
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+	}
+	.btn-signup{
+		width:50%;
+		height:50px;
+		border-radius: 15px;
+		padding-left: 34px !important;
+    background-image: url(../images/Heart@2x.png);
+	background-color:rgb(141,136,189);
+	color:#fff;
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+	opacity:0.9;
+	cursor:pointer
+		}
+		.btn-signup:hover{
+			opacity:1}
+		.icon_socialnet_{padding: 0;
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+	padding:5px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+	
+	}
+	
+	
+	
+	
+	
+	.icon_socialnet{
+		margin:10px;
+		background-color:#fff;
+		border-radius:50%;
+		width: 60px;
+    	height: 60px; 
+  		box-shadow: 3px 3px 3px #888;
+		padding:10px;
+		opacity:0.9;
+	cursor:pointer }
+	.icon_socialnet:hover{
+		opacity:1}
+		
+		.alredy-link{
+			cursor:pointer;
+			color:#000;
+			opacity:0.8;}
+		.alredy-link:hover{
+			opacity:1}
+			.topic-page{
+				color:#8D88BD;
+				font-size:40px;
+				font-weight:bold}
+.box-login_total{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+   
+}
+
+.password-signupbox_{
+	margin:0 auto 40px auto;
+	width:60%;}
+.password-signupbox_ div{
+	text-align:end;
+	cursor:pointer;
+	opacity:0.9}
+.password-signupbox_ div:hover{
+	opacity:1}
+.icon_socialnet_total{
+	display:inline-flex}
+.box-login_total{
+	padding-top:15%;
+	}
+	
+@media (max-width:912px) {
+	.box-login_total{
+		width:100% !important}
+	.container-fluid {
+		    margin-top: 130px;}
+	}
+	
+@media (max-width:500px) {
+	.box-login input{
+		width:80%}
+		.password-signupbox_{
+			width:80%}
+		.btn-signup {
+			width:70%}
+		.topic-page {font-size:30px}
+		.
+	}

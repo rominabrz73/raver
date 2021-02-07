@@ -1,0 +1,122 @@
+.login-box
+		{
+		width: 350px;
+		background-color: #ffffff;
+		padding: 15px;
+		max-width: 100%;
+		box-sizing: border-box;
+		margin: 0 auto;
+		font-size: 12px;}
+	.box-login input{
+			display:flex!important;
+			width:60%;
+		    border: solid rgba(0,0,0,0.2) 1px;
+			margin:20px auto;  
+			height: 40px;
+			
+			padding: 6px 15px 5px 15px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 10px;
+}
+.username-signupbox {
+    padding-left: 34px !important;
+    background-image:url(../images/Icon@2x.png);
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+}
+.mail-signupbox {
+    padding-left: 34px !important;
+    background-image: url(../images/Mail.png);
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+}
+.password-signupbox{
+	padding-left: 34px !important;
+    background-image: url(../images/Lock.png);
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+	}
+	.btn-signup{
+		width:50%;
+		height:50px;
+		border-radius: 15px;
+		padding-left: 34px !important;
+    background-image: url(../images/Heart@2x.png);
+	background-color:rgb(141,136,189);
+	color:#fff;
+    background-repeat: no-repeat;
+    background-position: 15PX;
+    background-size: 15px 15px;
+    margin-right: 2px;
+	opacity:0.9;
+	cursor:pointer
+		}
+		.btn-signup:hover{
+			opacity:1}
+		.icon_socialnet_{padding: 0;
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+	padding:5px;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+	
+	}
+	
+	
+	
+	
+	
+	.icon_socialnet{
+		margin:10px;
+		background-color:#fff;
+		border-radius:50%;
+		width: 60px;
+    	height: 60px; 
+  		box-shadow: 3px 3px 3px #888;
+		padding:10px;
+		opacity:0.9;
+	cursor:pointer }
+	.icon_socialnet:hover{
+		opacity:1}
+		
+		.alredy-link{
+			cursor:pointer;
+			color:#000;
+			opacity:0.8;}
+		.alredy-link:hover{
+			opacity:1}
+			.topic-page{
+				color:#8D88BD;
+				font-size:40px;
+				font-weight:bold}
+.box-login_total{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+   
+}
+.box-login_total{
+	padding-top:10%}
+.icon_socialnet_total{
+	display:inline-flex}
+	
+@media (max-width:912px) {
+	.box-login_total{
+		width:100% !important}
+	.container-fluid {
+		    margin-top: 130px;}
+	}

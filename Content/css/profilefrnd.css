@@ -1,0 +1,14 @@
+.profile_mach_pic{
+	background-position:center;background-repeat:no-repeat; background-size:cover;width:100%;padding-bottom: 100%;    border-radius: 5px;}
+.Profile_photo_mach_lit{
+	width:25%; margin-right: 5px;border-radius:5px}
+.Profile_photo_mach_lit:hover{
+	border: 3px solid #ccc; }
+.HR_DIV{
+	background: rgb(113,201,235);
+background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+background: linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);height:4px;border-radius:5px}
+.sec-prof{
+	margin: 20px auto;}

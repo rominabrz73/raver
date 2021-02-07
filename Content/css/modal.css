@@ -1,0 +1,162 @@
+.modal_tishter_black{
+	display:none;float:none;border:none;outline:none;
+	top:0px;left:0px;right:0px;bottom:0px;
+	width:100vw;height:100vh;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.75);
+	position:fixed;
+}
+.modal_tishter_black> .modal_tishter_centeral{
+	float:none;clear:both;
+	position:relative;
+	width:100%;height:100%;overflow:hidden;
+	display: -webkit-flex;
+	display:    -moz-flex;
+	display:     -ms-flex;
+	display:      -o-flex;
+	display:         flex;
+	text-align:center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{
+	position:relative;
+	margin:0px auto;
+	min-width:250px;
+	text-align:left;
+	background-color:#ebebeb;
+	*overflow-x:hidden;
+	overflow-y:auto;
+	-webkit-border-radius:0.3rem;
+	-moz-border-radius:0.3rem;
+	-ms-border-radius:0.3rem;
+	-o-border-radius:0.3rem;
+	border-radius:0.3rem;
+	border: 1px solid rgba(0,0,0,0.2);
+    outline:0;
+	-webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    -ms-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    -o-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.modal_tishter_black> .modal_tishter_btn_close::before{
+	content:'\2716';
+}
+.modal_tishter_black> .modal_tishter_btn_close{
+	display:none;
+	position:fixed;z-index:1;
+	top:100px;right:0px;
+	width:25px;height:25px;
+	padding:5px;
+    font-size:1.3rem;font-family:Tahoma;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+@media (hover: hover) {
+	.modal_tishter_black> .modal_tishter_btn_close:hover{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		-moz-opacity: 1.0;
+		-khtml-opacity: 1.0;
+		opacity: 1.0;
+	}
+}
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box> .modal_tishter_box_close{
+	*position:absolute;z-index:1;
+	position:-webkit-sticky;
+	position:sticky;
+	width:100%;height:0px;
+	padding:0px;margin:0px;text-align:right;
+	right:0px;top:0px;*margin-left:90%;
+}
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box> .modal_tishter_box_close> .modal_tishter_btn_close::before{
+	content:'\2716';
+}
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box> .modal_tishter_box_close> .modal_tishter_btn_close{
+	width:25px;height:25px;
+	padding:5px;
+    font-size:1.3rem;font-family:Tahoma;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+	cursor: pointer;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+@media (hover: hover) {
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box> .modal_tishter_box_close> .modal_tishter_btn_close:hover{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		filter: alpha(opacity=100);
+		-moz-opacity: 1.0;
+		-khtml-opacity: 1.0;
+		opacity: 1.0;
+	}
+}
+
+
+
+.modal_tishter_black{ overflow-x:hidden;margin:0;padding:0; }
+.modal_tishter_black> .modal_tishter_centeral{ width:100%;height:100vh;overflow-x:hidden;margin:0;padding:0; }
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ margin:0 auto;padding:0 5px;box-sizing:border-box; }
+@media all and (min-width:1px) and (max-width:532px){
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ width:90% !important;max-width:90% !important;max-height:90% !important;margin:0 auto;padding:0 5px;box-sizing:border-box; }
+}
+/*@media all and (min-width:1px) and (max-width:767px) and (hover: none) and (pointer: coarse){*/
+@media all and (min-width:533px) and (max-width:767px){
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ width:90% !important;max-width:530px !important;max-height:90% !important;margin:0 auto;padding:0 5px;box-sizing:border-box; }
+}
+@media all and (min-width:768px) and (max-width:1024px){
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ width:90% !important;max-width:530px !important;max-height:90% !important;margin:0 auto;padding:0 5px;box-sizing:border-box; }
+}
+@media all and (min-width:1025px) and (max-width:1399px){
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ width:90% !important;max-width:706px !important;max-height:90% !important;margin:0 auto;padding:0 5px;box-sizing:border-box; }
+}
+@media all and (min-width:1400px){
+	.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box{ width:90% !important;max-width:966px !important;max-height:90% !important;margin:0 auto;padding:0 5px;box-sizing:border-box; }
+}

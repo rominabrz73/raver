@@ -1,0 +1,124 @@
+.retailer_{
+	background-color:#e62e04;
+	color:#fff;
+	border-color:#e62e04;
+}
+.retailer_bg{
+	background-color:#e62e04;
+}
+.retailer_border{
+	border-color:#e62e04;
+}
+.retailer_text{
+	color:#e62e04;
+}
+.retailer_img{
+	background-image:url(../images/_SearchBar/retailer_market.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.retailer_img_big{
+	background-image:url(../images/_SearchBar/retailer_market_big.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.retailer_bg_hover:hover{
+	color:#FFF !important;
+	background-color:#e62e04 !important;
+}
+
+
+
+
+
+
+
+
+.wholesaler_{
+	background-color:#3ac713;
+	color:#fff;
+	border-color:#3ac713;
+}
+.wholesaler_bg{
+	background-color:#3ac713;
+}
+.wholesaler_border{
+	border-color:#3ac713;
+}
+.wholesaler_text{
+	color:#42ab00;
+}
+.wholesaler_img{
+	background-image:url(../images/_SearchBar/wholesaler_market.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.wholesaler_img_big{
+	background-image:url(../images/_SearchBar/wholesaler_market_big.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.wholesaler_bg_hover:hover{
+	color:#FFF !important;
+	background-color:#3ac713 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.manufacturers_{
+	background-color:#ffb400;
+	color:#fff;
+	border-color:#ffb400;
+}
+.manufacturers_bg{
+	background-color:#ffb400;
+}
+.manufacturers_border{
+	border-color:#ffb400;
+}
+.manufacturers_text{
+	color:#ff9100;
+}
+.manufacturers_img{
+	background-image:url(../images/_SearchBar/manufacturers_market.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.manufacturers_img_big{
+	background-image:url(../images/_SearchBar/manufacturers_market_big.png);
+	*background-clip:content-box;
+	background-clip:padding-box;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+.manufacturers_bg_hover:hover{
+	color:#FFF !important;
+	background-color:#ffb400 !important;
+}
