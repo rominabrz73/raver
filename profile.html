@@ -35,6 +35,9 @@
 	<link href="Content/css/_Layouts/body.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/profile.css" rel="stylesheet" type="text/css">
 	
+	<link href="Content/css/favouriate.css" rel="stylesheet" type="text/css">
+	
+  <script src="Scripts/raver/dropdown.js"></script>
    
   <link href="Content/css/event.css" rel="stylesheet" type="text/css">
 
@@ -44,27 +47,182 @@
   <body>
 
    <header class="header about">
-      <div class="container">
+      <div >
         <nav class="navbar navbar-expand-lg"> 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar" aria-controls="navbarSupported" aria-expanded="false" aria-label="Toggle navigation">
-            <span>
-              <i class="fas fa-align-justify"></i>
-            </span>
+			
 
-       		</button>
-
-          <div class="collapse navbar-collapse" id="topnavbar">
-            <ul class="navbar-nav mr-auto navbar-menu">
-              <li class="active"><a href="#" title="Home">About</a></li>
-              <li><a href="#" title="About">Work with us</a></li>
+          <div class="collapse navbar-collapse" id="topnavbar" style="height:60px">
+            <ul class="navbar-nav mr-auto navbar-menu" style="margin: auto 5PX;">
+              <li class="active " >
+			  <a href="#">
+			  <div class="favo_imglink" ></div>
+			 </a>
+			  
+			  	<ul class="dropdown drop-none" >
+					<li class="titledropdown">Your Favourites</li>
+					<li class="mar-5" >
+					
+					<div class="favo_box">
+					<div class="remove_img_fav_box" >
+						 <div class="remove_img_fav"></div>
+						 <div class="opc8">Remove</div>
+					</div>
+					<div class="profile_img_fav_box" >
+					 	<div class="profile_img_fav" ></div>
+					 <div>aaaaa</div>
+					  </div>
+				    <div class="MSG_img_fav_box">
+					 	<div class="MSG_img_fav"></div>
+						 <div>Message</div>
+					 
+					 </div>
+					
+					
+					
+					 </div>
+					</li>
+				<li class="mar-5">
+					<div class="favo_box">
+					<div class="remove_img_fav_box" >
+						 <div class="remove_img_fav"></div>
+						 <div class="opc8">Remove</div>
+					</div>
+					<div class="profile_img_fav_box" >
+					 	<div class="profile_img_fav" ></div>
+					 <div>aaaaa</div>
+					  </div>
+				    <div class="MSG_img_fav_box">
+					 	<div class="MSG_img_fav"></div>
+						 <div>Message</div>
+					 
+					 </div>
+					
+					
+					
+					 </div>
+				</li>
+				<li class="mar-5">
+					<div class="favo_box">
+					<div class="remove_img_fav_box" >
+						 <div class="remove_img_fav"></div>
+						 <div class="opc8">Remove</div>
+					</div>
+					<div class="profile_img_fav_box" >
+					 	<div class="profile_img_fav" ></div>
+					 <div>aaaaa</div>
+					  </div>
+				    <div class="MSG_img_fav_box">
+					 	<div class="MSG_img_fav"></div>
+						 <div>Message</div>
+					 
+					 </div>
+					
+					
+					
+					 </div>
+				</li>
+				
+				</ul>
+			  
+			  </li>
+              <li class="active"><a href="#" title="About"><div class="msg_imglink"> </div></a>
+			  
+			  
+			  	<ul class="dropdown drop-none" >
+					<li class="titledropdown">Messages</li>
+					<li class="mar-5">
+						<div class="box_msg " >
+							<div class="img_msg " ></div>
+							<span class="msg_user_on"> &#8226;</span>
+							<div class="msg_txt_box">
+								<div  class="msg_txt_name">inameila  (Namail)</div>
+								<div class="msg_txt_tx" >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</div>
+							</div>
+							<div class="msgbox_time msgbox_dnt_read">1h</div>
+						</div>
+					</li>
+					<li class="mar-5">
+						<div class="box_msg" >
+							<div class="img_msg" ></div>
+							<div class="msg_txt_box">
+								<div  class="msg_txt_name">inameila  (Namail)</div>
+								<div class="msg_txt_tx" >Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</div>
+							</div>
+							<div class="msgbox_time">1h</div>
+						</div>
+					</li>
+					
+				
+				</ul>
+			  </li>
               
-              <li><a href="#" title="link">How It Works</a></li>
-			  <li><a href="#" title="link">Sell On Tishter</a></li>
+              <li class="active">
+			  <a href="#" title="link">
+			   <div class="noti_imglink"> </div>
+			  </a>	
+			  	<ul class="dropdown drop-none" >
+					<li class="titledropdown">Your Notifications</li>
+					<li class="mar-5">
+						<div class="box_noti"  >
+							
+					
+							<div class="img_noti"></div>
+							<div class="box-noti-datetxt">
+								<div class="name_noti" >user</div>
+								<div class="date_noti" >Thu Des 1 06:38:43 2020</div>
+							
+							</div>
+								<div class="box_topic" >
+									<div class="box_topic_noti_alert" style=""></div>
+								
+								
+								</div>
+							
+						</div>
+						
+					</li>
+					<li class="mar-5">
+						<div class="box_noti"  >
+							
+					
+							<div class="img_noti"></div>
+							<div class="box-noti-datetxt">
+								<div class="name_noti" >user</div>
+								<div class="date_noti" >Thu Des 1 06:38:43 2020</div>
+							
+							</div>
+								<div class="box_topic" >
+									<div class="box_topic_noti_like" ></div>
+								
+								
+								</div>
+							
+						</div>
+					</li>
+					
+				
+				</ul>
+			  </li>
+			  <li><a href="#" title="link"><div class="prof_imglink"> </div></a></li>
               
             </ul>
-            <ul class="list-Sign">
-              <li><a href="" title="">Sign up</a></li>
-              <li><a href="" title="">Sign in</a></li>
+           <!-- <ul class="list-Sign">
+              <li class="active "><a href="" title="" style="font-size: 14px;
+    color: #000;
+    font-weight: 900;">Setting</a>
+			<ul class="dropdown drop-none setting_item_"  style="right:0">
+					
+					<li class="setting_item_box">Contact Us</li>
+					<li class="setting_item_box">Privacy Policy</li>
+					<li class="setting_item_box">Restore Purchases</li>
+					<li class="setting_item_box">set 3</li>
+					
+				
+				</ul>-->
+		
+		
+		</li>
+             
             </ul>
           </div>
         </nav>
@@ -72,53 +230,227 @@
 
     </header>
 	
-   <section>
+   <section class="back-none">
 		<div class="row ">
-		<button class="bb" style="position: fixed;
-    left: 0px;
-    margin-top: 120px;
-    width: 15px;
-    height: 60px;
-	    z-index: 99987;
-    background-color: rgba(0,0,0,0.25);
-    background-image:url(Content/images/tab-bar/col_a_arrow.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 20px;
-    overflow: hidden;
-    cursor: pointer;-webkit-border-radius: 0 100% 100% 0;
-    -moz-border-radius: 0 100% 100% 0;
-    -ms-border-radius: 0 100% 100% 0;
-    -o-border-radius: 0 100% 100% 0;
-    border-radius: 0 100% 100% 0;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
-" ></button>
-			<div class=" col-md-4 col-a-profile" style="background-color:#fff;overflow:auto;position:sticky;top:0">
+			<button class="Arrowcola" ></button>
+			<div class=" col-md-4 col-sm-4  col-a-profile">
+				<div class="flex" >
+						<div class="seticon">
+							<a href="javascript:void(0);" class="tishter_modal_btn_open" data-target="#modal_tishter_0005">
+							
+								<div class="setting"></div>
+							</a>
+							<div class="modal_tishter_black zindex_modal_tishter" id="modal_tishter_0005">
+										<button class="modal_tishter_btn_close"></button>
+										<div class="modal_tishter_centeral">
+											<div class="modal_tishter_box settingmain">
+												<div class="modal_tishter_box_close">
+													<button class="modal_tishter_btn_close"></button>
+												</div>
+												<div class="modal_tishter_content">
+													<!-- محتوای مودال: -->
+													
+													<!--<div class="box1 boxsiz_border pad_20">
+														content
+													</div>-->
+													<!--<form action="" method="post">
+														form design
+													</form>-->
+												
+													<div class="container-fluid " style="padding:6% ">
+														
+														<div > 
+															<div class="titilesetbox">setting</div>
+															<hr>
+															<div class="rowsettxt">
+																<div class="txtset">Your name won't be shown on your profile</div>
+																<label class="switch">
+																  <input type="checkbox">
+																  <span class="slider round"></span>
+																</label>	
+															</div>
+															<div class="rowsettxt">
+																<div class="txtset">Allow people to see I have viewed their profile</div>
+																<label class="switch">
+																  <input type="checkbox">
+																  <span class="slider round"></span>
+																</label>	
+															</div>
+														</div>
+														
+																													
+													</div>
+												
+													
+													<!--END محتوای مودال. -->
+												</div>
+											</div>
+										</div>
+							</div>
+						</div>
+						<div class="boosticon">
+							<a href="javascript:void(0);" class="tishter_modal_btn_open" data-target="#modal_tishter_0006">
+							<div style="display:flex">
+								<div class="boost"></div>
+								<div><h5>Boost</h5></div>
+							</div>
+								
+							</a>
+							<div class="modal_tishter_black zindex_modal_tishter" id="modal_tishter_0006">
+											<button class="modal_tishter_btn_close"></button>
+												<div class="modal_tishter_centeral">
+													<div class="modal_tishter_box boostmain_box" >
+													<div class="modal_tishter_box_close">
+														<button class="modal_tishter_btn_close"></button>
+													</div>
+													<div class="modal_tishter_content ">
+														<!-- محتوای مودال: -->
+														
+														<!--<div class="box1 boxsiz_border pad_20">
+															content
+														</div>-->
+														<!--<form action="" method="post">
+															form design
+														</form>-->
+													
+														<div class="main_purchase">
+																
+																<div class="titleBoost" >
+																<h5>Purchase Boost Token</h5>
+																</div>
+																<hr/>
+																<div class="captxtbox">you are Purchasting Boost Token.Here Are Our Boost Tokens.</div>
+																
+																<select  class="selectboxboost" >
+																	<option>1 Hour/1$</option>
+																	<option>1 Hour/1$</option>
+																	<option>1 Hour/1$</option>
+																	<option>1 Hour/1$</option>
+																
+																</select>
+																<div  class="radioboxboost" >
+																  <input type="radio" id="x1" name="boost" value="x1">
+																  <label for="x1">x1</label><br>
+																  <input type="radio" id="x2" name="boost" value="x2">
+																  <label for="x2">x2</label><br>
+																  <input type="radio" id="x3" name="boost" value="x3">
+																  <label for="x3">x3</label>
+	
+																
+																</div>
+																<div class="btn_chance_box"> <button class="btn_chance">Purchase</button></div>
+																 
+														</div>
+													</div>	
+																
+																
+												 </div>
+													
+														
+														<!--END محتوای مودال. -->
+													</div>
+								</div>
+						</div>
+						<div class="crowicon">
+							<a href="javascript:void(0);" class="tishter_modal_btn_open" data-target="#modal_tishter_0007">
+							<div class="permium_box">
+								
+							</div>
+							</a>
+							<div class="modal_tishter_black zindex_modal_tishter" id="modal_tishter_0007">
+										<button class="modal_tishter_btn_close"></button>
+										<div class="modal_tishter_centeral">
+											<div class="modal_tishter_box boostmain_box">
+												<div class="modal_tishter_box_close">
+													<button class="modal_tishter_btn_close"></button>
+												</div>
+												<div class="modal_tishter_content">
+													<!-- محتوای مودال: -->
+													
+													<!--<div class="box1 boxsiz_border pad_20">
+														content
+													</div>-->
+													<!--<form action="" method="post">
+														form design
+													</form>-->
+												
+													<div class="main_purchase">
+															<div >
+																<div class="titleBoost" >
+																<h5>Purchase Perminum Account</h5>
+																</div>
+															<hr/>
+																<div class="captxtbox" >you are Purchasting Permium Account.Here Are Our Premium Plans.</div>
+																<div class="radioboxboost">
+																	  <input type="radio" id="1" name="premium" value="1">
+																	  <label for="1">10$/1months</label><br>
+																	  
+																	  <input type="radio" id="2" name="premium" value="2">
+																	  <label for="2">10$/1months</label><br>
+																	  
+																	  <input type="radio" id="3" name="premium" value="10$/1months">
+																	  <label for="3">10$/1months</label><br>
+																	  
+																	   <input type="radio" id="4" name="premium" value="10$/1months">
+																	  <label for="4">10$/1months</label>
+		
+																	
+																	</div>
+																<div class="btn_chance_box"> <button class="btn_chance">Subscribe</button></div>
+															 
+															
+															</div>	
+															
+															
+													</div>
+												
+													
+													<!--END محتوای مودال. -->
+												</div>
+											</div>
+										</div>
+							</div>
+							
+						</div>
+				</div>
+				
 				<div class="container-fluid">
-				<div class="center">
-					<div class="profilpic"  style="background-image:url(Content/images/search/person-title.png);">
+					
+					<div class="center">
+						<div>
+							<div class="profilpic"  style="background-image:url(Content/images/search/person-title.png);">
+								
+							</div>
+						
+						</div>
+						<div class="user_on"> &#8226;</div>
+						
+						<div class="profilpic_change ">
+							<form action="" method="post" enctype="multipart/form-data" >
+									<label >Change Profile Picture 
+										<input  class="profilpic_change_input"type="file" camera="camera" accept="image/*" >
+									</label>
+							</form>
+						</div>
+						<div>Developer ,90,5"2 </div>
+						
+														
+													
+						<div >
+							<span>@Cooldev </span><img src="Content/images/tab-bar/pen.png" width="10" height="10">
+						</div>
+					<!--type status-->
+						<div>
+							<input type="text" maxlength="35" > 
+						</div>
+						<!--end type status-->
+						<div>
+							<img src="Content/images/search/location.png" width="15" height="15"><span> @ Londen , United Kingdom</span>
+						</div>							
 					
 					</div>
-					<div class="profilpic_change "><form action="" method="post" enctype="multipart/form-data" >
-													<label  style="cursor:pointer">Change Profile Picture 
-														<input type="file" camera="camera" accept="image/*" style="display: none;
-    visibility: hidden;">
-													</label>
-												</form>
-					</div>
-					<div>Developer ,90,5"2 </div>
-					<div class=""><span>@Cooldev </span><img src="Content/images/tab-bar/pen.png" width="10" height="10"></div>
-					<div><img src="Content/images/search/location.png" width="15" height="15"><span> @ Londen , United Kingdom</span></div>							
-				
-				</div>
-			
-								
 					<div>
-						<div>background</div>
+						<div class="titleinputprofile">background</div>
 						<div class="HR_DIV"></div>
 						<div class="profile-item"> 
 							<span>Education?</span>
@@ -134,7 +466,7 @@
 							
 							</select>
 							
-							</div>
+						</div>
 						<div class="profile-item"> 
 								<span>what is your marital Status?</span>
 								<select class="reg-seloption">
@@ -147,7 +479,7 @@
 									<option>not single and not looking</option>                
 									
 								</select>
-								</div>
+						</div>
 						<div class="profile-item"> 
 								<span>Seeking</span>
 								<select class="reg-seloption">
@@ -169,12 +501,12 @@
 									              
 									
 								</select>
-								</div>
+						</div>
 					</div>
 					<div>
-					<div>Detailes</div>
-					<div class="HR_DIV"></div>
-							<div class="profile-item"> 
+						<div class="titleinputprofile">Detailes</div>
+						<div class="HR_DIV"></div>
+						<div class="profile-item"> 
 							<span>Eye color?</span>
 							<select class="reg-seloption">
 								<option>Blue</option>
@@ -185,8 +517,8 @@
 								<option>other</option>
 								
 							</select>
-							</div>
-							<div class="profile-item"> 
+						</div>
+						<div class="profile-item"> 
 							<span>Hair color?</span>
 							
 							<select class="reg-seloption">
@@ -199,8 +531,8 @@
 								<option>mixed colour</option>
 								
 							</select>
-							</div>
-							<div class="profile-item"> 
+						</div>
+						<div class="profile-item"> 
 							<span>Body Type?</span>
 							
 							<select class="reg-seloption">
@@ -212,8 +544,8 @@
 								<option>big and tall/ bbw</option>
 								
 							</select>
-							</div>
-							<div class="profile-item"> 
+						</div>
+						<div class="profile-item"> 
 							<span>Religion?</span>
 							<select class="reg-seloption">
 								<option>non-religious</option>
@@ -233,8 +565,8 @@
 								<option>other</option>
 								
 							</select>
-							</div>
-							<div class="profile-item"> 
+						</div>
+						<div class="profile-item"> 
 							 <span>Ethnicity?</span>
 							<select class="reg-seloption">
 								<option>black</option>
@@ -247,15 +579,18 @@
 								<option> mixed race</option>
 								<option>other</option>
 							</select>
-							</div>
-				</div>
-					<div>
-						<div>Description</div>
-						<div class="HR_DIV"></div>
-						<div><textarea  class="txtbox"  placeholder=" Write Something about You ..." ></textarea> </div>
+						</div>
 					</div>
 					<div>
-						<div>Addications & Child</div>
+						<div class="titleinputprofile">Description</div>
+						<div class="HR_DIV"></div>
+						<div ><textarea  class="txtbox"  placeholder=" Write Something about You ..." ></textarea> </div>
+						<!--edit status-->
+						<div><span> hello there</span><img src="Content/images/tab-bar/pen.png" width="10" height="10" style="float:right;cursor:pointer"></div>
+					<!--	end of edit status-->
+					</div>
+					<div>
+						<div class="titleinputprofile">Addications & Child</div>
 						<div class="HR_DIV"></div>
 						<div class="profile-item"> 
 							<span>Smoke?</span>
@@ -267,8 +602,8 @@
 								<option>occasionally</option>
 								
 							</select>
-							</div>
-							<div class="profile-item"> 
+						</div>
+						<div class="profile-item"> 
 							<span>Drink?</span>
 							<select class="reg-seloption">
 								<option>no</option>
@@ -298,7 +633,7 @@
 									
 								</select>
 						 </div>
-						 <div class="profile-item"> 
+						<div class="profile-item"> 
 								<span>Do you Want Kids?</span>
 								<select class="reg-seloption">
 									
@@ -310,125 +645,99 @@
 									<option>no</option>
 									
 								</select>
-								</div>
+						</div>
 							
 					</div>
 					<div>
-						<div>Will Date Someone As Below</div>
+						<div  class="titleinputprofile">Will Date Someone As Below</div>
 						<div class="HR_DIV"></div> 
-							<div class="profile-item"> 
-								<span> Do smoke?</span>
-								<select class="reg-seloption">
-									
-									<option> yes</option>
-									<option>no</option>
-									<option>prefer not to say</option>               
-									
-								</select>
-								</div>
-								<div class="profile-item"> 
-								<span> Drink?</span>
-								<select class="reg-seloption">
-									
-									<option> yes</option>
-									<option>no</option>
-									<option>prefer not to say</option>               
-									
-								</select>
-								</div>
-								<div class="profile-item"> 
-								<span> Drug?</span>
-								<select class="reg-seloption">
-									
-									<option> yes</option>
-									<option>no</option>
-									<option>prefer not to say</option>               
-									
-								</select>
-								</div>
-							<div class="profile-item"> 
-								<span> has kids?</span>
-								<select class="reg-seloption">
-									
-									<option> yes</option>
-									<option>no</option>
-									<option>prefer not to say</option>               
-									
-								</select>
-							</div>
+						<div class="profile-item"> 
+							<span> Do smoke?</span>
+							<select class="reg-seloption">
+							
+							<option> yes</option>
+							<option>no</option>
+							<option>prefer not to say</option>               
+							
+						</select>
+						</div>
+						<div class="profile-item"> 
+						<span> Drink?</span>
+						<select class="reg-seloption">
+							
+							<option> yes</option>
+							<option>no</option>
+							<option>prefer not to say</option>               
+							
+						</select>
+						</div>
+						<div class="profile-item"> 
+							<span> Drug?</span>
+							<select class="reg-seloption">
+							
+								<option> yes</option>
+								<option>no</option>
+								<option>prefer not to say</option>               
+							
+							</select>
+						</div>
+						<div class="profile-item"> 
+							<span> has kids?</span>
+							<select class="reg-seloption">
+								
+								<option> yes</option>
+								<option>no</option>
+								<option>prefer not to say</option>               
+								
+							</select>
+						</div>
 						
 					</div>
 					<div>
-						<div>Interests</div>
+						<div  class="titleinputprofile">Interests</div>
 						<div class="HR_DIV"></div> 
 						<div class="profile-item"> 
 							
-					
+					<!--type status-->
 							<div><textarea rows="8" class="txtbox"  placeholder=" What are your interests?" ></textarea> </div>
-								
-								</div>
-</div>
+							<!--end type status-->
+							<!--text show-->
+							<div><span> hello there</span><img src="Content/images/tab-bar/pen.png" width="10" height="10" style="float:right;cursor:pointer"></div>
+							<!--	end txt show-->
+						</div>
+					</div>
 					
 				</div>
 			
 			
 			</div>
-			<div class="col-md-8 box-profile "  style="padding:10px;margin:0 auto; background-color:#fff">
+			<div class="col-md-8 col-sm-8  box-profile "  >
 				<div class="container" style="justify-content: center;" >
-					<div style="display:flex;justify-content: center;">
-					<div class="" style="background-image:url(Content/images/search/point-left.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 20PX;    margin: auto 0;
-    height: 20px;"></div>
-					
-						<div  class="Profile_photo" style="
-   background-image:url(Content/images/EHK-o-1@2x.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:47%;border-radius:7px" >
+					<div class="profilephotos" >
+						<div class="preprofilephotos"></div>
 						
-						
+						<div  class="Profile_photo" style="background-image:url(Content/images/EHK-o-1@2x.png);" >
+						</div>
+						<div class="profilephotosnext"  ></div>
 					
 					</div>
-					<div class="" style="background-image:url(Content/images/search/point-right.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 20PX;    margin: auto 0;
-    height: 20px;
-
-    " ></div>
-					
+					<div class="text-center pad-5">
+					 <div> Name</div>
+					 <div> Location</div>
 					</div>
-					<div class="text-center">
-					 <div style="padding:5px"> Name</div>
-					 <div style="padding:5px"> Location</div>
-					</div>
-					<div style="     display: flex;
-    justify-content: center;
-    width: 50%;
-    margin: auto;
-   ">
+					<div class="box-event_comp" >
 						<!-- Modal: -->
 								<!--<span class="modal_tishter">-->
 									<a href="javascript:void(0);" class="tishter_modal_btn_open" data-target="#modal_tishter_0004">
 									
-						<div style="width:100px;height:80px; border-radius:5px;border:1px solid #ccc;    margin: 10px;box-shadow:3px 3px 3px #ccc;vertical-align:central;cursor:pointer;padding:15px">
-						
-									<div style="background-image:url(Content/images/tab-bar/event.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:30PX;height:30PX;margin:auto">
-	</div>
-	<div style="padding:2px;text-align:center">
-							Events
-							
-							</div>
-						</div>
+									<div  class="box-ev_com">
+										<div class="box-event_" >
+										</div>
+										<div class="box-txtevent" >
+										Events
+										
+										</div>
+									</div>
 									</a>
 									<div class="modal_tishter_black zindex_modal_tishter" id="modal_tishter_0004">
 										<button class="modal_tishter_btn_close"></button>
@@ -447,82 +756,77 @@
 														form design
 													</form>-->
 												
-								<div class="container-fluid " style="padding:6% ">
-										<div style="margin-bottom: 30px;"><h2>Get Your Tickets Now  </h2></div>
-										
-										<div class="box_ticketevent">
-											
-											<div class="Event_photo cover_ticket_photo" > 
-												<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
-													<div class="calender_event">
-														<div>27</div>
-														<div>July</div>
-														
-													</div>				
-												</div>
-											</div>
-											
-											<div class="des_event_ticket">
-												<div>Event</div>
-												<div> This an event</div>
-											
-											</div>
-											<div class="box_btn_ticket" style="">
-												<button class="btn_ticket"  value="" >Buys Tickets</button> 
-											</div>
-										
-										</div>
-										<div class="box_ticketevent">
-											
-											<div class="Event_photo cover_ticket_photo"> 
-												<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
-													<div class="calender_event">
-														<div>27</div>
-														<div>July</div>
-														
-													</div>				
-												</div>
-											</div>
-											
-											<div class="des_event_ticket">
-												<div>Event</div>
-												<div> This an event</div>
-											
-											</div>
-											<div class="box_btn_ticket" style="">
-												<button class="btn_ticket"  value="" >Buys Tickets</button> 
-											</div>
-										
-										</div>
-										<div class="box_ticketevent">
-											
-											<div class="Event_photo cover_ticket_photo"> 
-												<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
-													<div class="calender_event">
-														<div>27</div>
-														<div>July</div>
-														
-													</div>				
-												</div>
-											</div>
-											
-											<div class="des_event_ticket">
-												<div>Event</div>
-												<div> This an event</div>
-											
-											</div>
-											<div class="box_btn_ticket" style="">
-												<button class="btn_ticket"  value="" >Buys Tickets</button> 
-											</div>
-										
-										</div>
-										
-										
-											
-											
-										
-										
-									</div>
+													<div class="container-fluid containerticket" >
+															<div class="containertickettitle" >
+																<h2>Get Your Tickets Now  </h2>
+															</div>
+															
+															<div class="box_ticketevent">
+																
+																<div class="Event_photo cover_ticket_photo" > 
+																	<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
+																		<div class="calender_event">
+																			<div>27</div>
+																			<div>July</div>
+																			
+																		</div>				
+																	</div>
+																</div>
+																
+																<div class="des_event_ticket">
+																	<div>Event</div>
+																	<div> This an event</div>
+																
+																</div>
+																<div class="box_btn_ticket" >
+																	<button class="btn_ticket"  value="" >Buys Tickets</button> 
+																</div>
+															
+															</div>
+															<div class="box_ticketevent">
+																
+																<div class="Event_photo cover_ticket_photo"> 
+																	<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
+																		<div class="calender_event">
+																			<div>27</div>
+																			<div>July</div>
+																			
+																		</div>				
+																	</div>
+																</div>
+																
+																<div class="des_event_ticket">
+																	<div>Event</div>
+																	<div> This an event</div>
+																
+																</div>
+																 
+															
+															</div>
+															<div class="box_ticketevent">
+																
+																<div class="Event_photo cover_ticket_photo"> 
+																	<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
+																		<div class="calender_event">
+																			<div>27</div>
+																			<div>July</div>
+																			
+																		</div>				
+																	</div>
+																</div>
+																
+																<div class="des_event_ticket">
+																	<div>Event</div>
+																	<div> This an event</div>
+																
+																</div>
+																<div class="box_btn_ticket" >
+																	<button class="btn_ticket"  value="" >Buys Tickets</button> 
+																</div>
+															
+															</div>
+															
+													</div>
 												
 													
 													<!--END محتوای مودال. -->
@@ -539,19 +843,15 @@
 								<!--<span class="modal_tishter">-->
 									<a href="javascript:void(0);" class="tishter_modal_btn_open" data-target="#modal_tishter_0003">
 									
-						<div style="width:100px;height:80px; border-radius:5px;border:1px solid #ccc;    margin: 10px;box-shadow:3px 3px 3px #ccc;vertical-align:central;cursor:pointer;padding:15px">
+										<div  class="box-ev_com">
 						
-									<div style="background-image:url(Content/images/tab-bar/award.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:25PX;height:25PX;margin:auto">
-	</div>
-	<div style="padding:2px;text-align:center">
-							Competitions
-							
-							</div>
-						</div>
+											<div class="box_competition" >
+											</div>
+											<div class="box-txtevent">
+												Competitions
+											
+											</div>
+										</div>
 									</a>
 									<div class="modal_tishter_black zindex_modal_tishter" id="modal_tishter_0003">
 										<button class="modal_tishter_btn_close"></button>
@@ -570,7 +870,7 @@
 														form design
 													</form>-->
 												
-													<div class="container-fluid " style="padding:6% ">
+													<div class="container-fluid containerticket" >
 																<div class="imgchancebox"> </div>
 																<div class="titlechance"><h5>Get a Chance To Win</h5></div>
 																<div class="row container-fluid">
@@ -613,9 +913,9 @@
 																	</div>
 																
 																
-																	</div>
-																<div>
-																	<button class="btn_chance"></button>
+																</div>
+																<div class="box_btn_chance">
+																	<button class="btn_chance">Enter Now</button>
 																
 																</div>
 															
@@ -628,40 +928,81 @@
 											</div>
 										</div>
 									</div>
-									
+								
 									
 							
 						</div>
 					
-					</div>
-					
-					
-					
-			
-				
+				</div>
 				
 			</div>
 		</div>
 	</section>
 												
-								
-														
-			<script type="text/javascript" language="javascript">
+	<script type="text/javascript" language="javascript">
 
 	
-					
+$(window).on('resize', function(){
+	
+			var wwindow = $(window).width() ;
+  if ( wwindow < 768) {
 
+    $('.col-a-profile').hide();
+	$('.Arrowcola').show();
+	
+	$(".Arrowcola").on("click", function() {
+		var col_a_W_ifOneCol_final= $('.col-a-profile').width();
+		$('.col-a-profile').show();
+		$('.col-a-profile').css('position', 'absolute');
+		$('.col-a-profile').css('z-index', '100000');
+		$('.Profile_photo').css('width', '100% ');
+		if($(".col-a-profile").length){
+			
+				if(!$(".Arrowcola").hasClass('flip-horizontal')){
+					$(".Arrowcola").addClass('flip-horizontal');
+					$('.Arrowcola').css('z-index', '100001');
+			
+				var col_a_btn_W = $(".Arrowcola").width();
+				$(".Arrowcola").css({'left':(col_a_W_ifOneCol_final- col_a_btn_W-10)+'px'});
+			}else{
+				if($(".Arrowcola").hasClass('flip-horizontal')){
+					$(".Arrowcola").removeClass('flip-horizontal');
+				}
+				$(".Arrowcola").css({'left':'0px'});
+				 $('.col-a-profile').hide();
+			}
+			$(".Arrowcola").css({'display':'block','visibility':'visible'});
+		}
+		
+		
+		});
+
+
+  }
+  
+   else {
+    $('.Arrowcola').hide();
+    $('.col-a-profile').show();
+
+    }
+	
+	$(".Profile_photo").each(function(index, element){
+		var w = $(element).width();
+		
+		$(element).height(w);
+	});
 					
 						
 					$(".Event_photo").each(function(index, element){
 						
 								var we = $(element).width();
 		
-							$(".Event_photo").height(we);
+							$(".Event_photo").height(we/2);
+					})
 	
 	});			
 						
-						
+					
 	$(function chatpage(){
 	
 	 var h = window.innerHeight;
@@ -676,12 +1017,12 @@
 	});
 
 		$(window).ready(function() {
-
-  if ($(this).width() < 700) {
+			var wwindow = $(window).width() ;
+  if ( wwindow < 768) {
 
     $('.col-a-profile').hide();
-	$('.bb').show();
-	$(".bb").on("click", function() {
+	$('.Arrowcola').show();
+	$(".Arrowcola").on("click", function() {
 		var col_a_W_ifOneCol_final= $('.col-a-profile').width();
 		$('.col-a-profile').show();
 		$('.col-a-profile').css('position', 'absolute');
@@ -689,20 +1030,20 @@
 		$('.Profile_photo').css('width', '100% ');
 		if($(".col-a-profile").length){
 			
-				if(!$(".bb").hasClass('flip-horizontal')){
-					$(".bb").addClass('flip-horizontal');
-					$('.bb').css('z-index', '100001');
+				if(!$(".Arrowcola").hasClass('flip-horizontal')){
+					$(".Arrowcola").addClass('flip-horizontal');
+					$('.Arrowcola').css('z-index', '100001');
 			
-				var col_a_btn_W = $(".bb").width();
-				$(".bb").css({'left':(col_a_W_ifOneCol_final- col_a_btn_W)+'px'});
+				var col_a_btn_W = $(".Arrowcola").width();
+				$(".Arrowcola").css({'left':(col_a_W_ifOneCol_final- col_a_btn_W-10)+'px'});
 			}else{
-				if($(".bb").hasClass('flip-horizontal')){
-					$(".bb").removeClass('flip-horizontal');
+				if($(".Arrowcola").hasClass('flip-horizontal')){
+					$(".Arrowcola").removeClass('flip-horizontal');
 				}
-				$(".bb").css({'left':'0px'});
+				$(".Arrowcola").css({'left':'0px'});
 				 $('.col-a-profile').hide();
 			}
-			$(".bb").css({'display':'block','visibility':'visible'});
+			$(".Arrowcola").css({'display':'block','visibility':'visible'});
 		}
 		
 		
@@ -710,7 +1051,7 @@
 
 
   } else {
-    $('.bb').hide();
+    $('.Arrowcola').hide();
     $('.col-a-profile').show();
 
     }
@@ -723,14 +1064,7 @@
 
 						
 							
-</script>						
-						
-								
-						
-	
-    
-    
-      
-
+</script>
   </body>
+  
 </html>
