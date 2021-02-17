@@ -15,10 +15,16 @@
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover}
-.favo_imglink:active{
-	background-image: url(../images/tab-bar/heart-pink.png) !important;
-	background-color:red
-	
+.favo_imglink:focus{
+	background-image:url(../images/Heart@2x.png);
+	width:20px;
+	height:18px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover}
+a:focus{
+	border:3px solid #F0F;
+	padding:5px
 	
 	}
 .favo_box{display:inline-flex;
@@ -435,5 +441,31 @@ ul > .active {
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cove;   margin: 7px;}
-		
-		
+	
+
+	.det_search_input_1 {
+    width: 200px;
+	
+    padding: 0px 30px 0px 5px !important;
+    border: solid #CCCCCC 1px !important;
+    font-size: 13px;
+   background-image: url(../images/search/search.png);
+    background-position: right 5px center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+	cursor:pointer;
+	height:30px;
+	border-radius:5px
+}
+.searchbox{
+	 position: absolute;
+    right: 5px;
+	    top: 12px;}
+#topnavbar{
+	height:60px}
+.navbar-menu{
+	display:flex;margin:0;padding:17px 0}
+
+@media (max-width:500px){
+	.det_search_input_1{
+		width:150px}}

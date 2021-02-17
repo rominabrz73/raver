@@ -1,9 +1,12 @@
 .profile_mach_pic{
-	background-position:center;background-repeat:no-repeat; background-size:cover;width:100%;padding-bottom: 100%;    border-radius: 5px;}
+	background-position:center;background-repeat:no-repeat; background-size:cover;width:100%;padding-bottom: 80%;    border-radius: 5px;}
 .Profile_photo_mach_lit{
-	width:25%; margin-right: 5px;border-radius:5px}
+	width:25% !important; 
+	margin-right: 5px;
+	border-radius:5px;
+	margin:5px 2px !important}
 .Profile_photo_mach_lit:hover{
-	border: 3px solid #ccc; }
+	border:1px solid #ccc; }
 .HR_DIV{
 	background: rgb(113,201,235);
 background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
@@ -12,3 +15,61 @@ background: linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 1
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);height:4px;border-radius:5px}
 .sec-prof{
 	margin: 20px auto;}
+	.profile_mach_big {
+background-image:url(../images/asset-19@2x.png)}
+
+.profillepiclitbox{
+	width:100%;margin: auto;}
+.profillepiclitbox{
+	display:inline-flex ;width:100%;}
+	.Profile_photo{
+	width: 100% !important;
+  
+    margin-bottom: 22px;}
+	
+.Profile_photo_mach_lit > .profile_mach_pic {
+	background-image:url(../images/EHK-o-1@2x.png);}
+.mar_auto{
+	margin:auto}
+.col-b_promach{
+	padding:2%;width:70%;;overflow:auto}
+.Titlename{
+	font-size:14px;
+    background-color: #f3d8e5;
+    border-radius: 7px;
+    padding: 8px;  
+	opacity: 0.7;
+	font-weight:700}
+.profile-item>span{
+    font-size: 12px;
+}
+.profile-item>div
+{
+float:right	}
+.profile-item {
+    margin-bottom:2px;
+	border-bottom:1px solid #fafafa
+}
+.profile-item >span{
+	padding:5px}
+.sec-prof_title{
+	font-weight:700}
+	.profile-item> span::before {
+  content: "\00BB";
+  font-size:16px;
+  font-weight:bold;
+  margin-right:5px;
+  color:#FF69B4
+}
+.cola_profilemach{
+	padding:0 5%; margin:auto}
+body{
+	overflow:auto !important}
+	.profilematch{
+		padding-top:5%}
+@media (max-width:700px) {
+		
+.profilematch{
+		padding-top:15%}
+	
+	}

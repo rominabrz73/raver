@@ -8,6 +8,26 @@ body {
    
     overflow-y:auto;
 }
+.btn_save{
+	width: 90px;
+    color: #fff;
+    float: right;
+    border-radius: 5PX;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImag}
+.btn_save:hover{
+	opacity:1}
 .back-none{
 	background:#fff !important}
 .Arrowcola{
