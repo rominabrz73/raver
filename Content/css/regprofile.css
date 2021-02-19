@@ -1,0 +1,418 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+   
+    overflow-y:auto;
+}
+.HR_DIV {
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);
+    height: 4px;
+    border-radius: 5px;
+	margin:15PX 0;
+}
+
+.flip-horizontal {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    filter: fliph;
+}
+
+.box-profile > div{
+	}
+
+.profilpic{
+	max-width: 100px;
+    background-color: #fff;
+    height: 100px;
+    background-image: url(../../images/venues_list/add_photo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+	 box-sizing: border-box;
+    background-size: auto;border-radius:50%;border:1px solid #ccc;margin:auto}
+.profilpic_change > label{
+	cursor:pointer}
+
+
+.profile-item input{
+	width: 100%;
+    height: 32px;
+    border: solid 1px #aaaaaa !important;
+    padding: 6px 15px 5px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;}
+.register-form {
+    padding: 0px 10px;
+}
+.profile-item{
+	margin-bottom:1rem}
+.reg-seloption{
+	width: 100%;
+    height: 32px;
+    border: solid 1px #aaaaaa !important;
+  font-size:13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;}
+.txtbox{
+	
+	border: solid 1px #aaaaaa !important;
+    font-size: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+	width:100%;}
+.profile-item span{
+	font-weight:600 ;
+	font-size:11px}
+.title-fill{
+	font-weight:600;
+	font-size:15px;
+	margin-bottom:20px
+	}
+.title-fill >p{
+	margin-bottom:0}
+.title-fill >span {
+	font-size:13px;
+	color:#D6DADE;
+	font-weight:400}
+	.favitem>.favitem_> div{
+	border-radius:50%; background-color:#fff;color:#FE9CF2;border:solid 1px #FE9CF2;min-height:30px;padding:3px;text-align:center;cursor:pointer;
+	width:70%}
+	.select{
+    
+	background-color:#FE9CF2 !important;
+	color:#fff !important
+}
+.favitem>.favitem_{
+	margin:5px auto;
+	display:inline-flex
+	}
+	.favitem>div{width:19%;}
+	.popup-content_ > div >label{
+	width:25%;
+	display:inline-block;
+	float:left}
+.popup-content_ > div {
+	
+	    padding-top: 35px;
+    max-height: 134px;
+    min-height: 134px;
+
+	overflow:auto
+
+	
+	}
+.headimg_popup{
+	background-image:url(../images/headphones@2x.png);
+	 border-radius:50%;
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 background-size:60% ;
+	 width:45px;
+	 height:45px;
+	 margin:auto;
+	 border:1px #ccc solid;
+	 box-shadow: 6px 2px 5px #ccc}
+@media (max-width: 750.98px){
+	.favitem>.favitem_{ width:35%;}
+	
+	
+	.popup-content_ > div >label{
+	width:50%;
+	}
+}
+.popup-overlay {
+  /*Hides pop-up when there is no "active" class*/
+  visibility: hidden;
+  
+  background: #ffffff;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  width: 80% !important;
+  top:50%;left:0;
+  border-radius:10px;
+  padding:10px ;
+  min-width:200px;
+      margin: 0 auto;
+    padding: 0 5px;
+	    position: absolute;
+    top: 0;
+    z-index: 200;
+  
+ 
+}
+
+.popup-overlay.active {
+  /*displays pop-up when "active" class is present*/
+  visibility: visible;
+  text-align: center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility: visible;
+}
+
+
+
+/* Hide the browser's default checkbox */
+.container_popup_fav input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  text-align:justify
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  
+border-radius: 15px;
+}
+
+/* On mouse-over, add a grey background color */
+.container_popup_fav:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a pink background */
+.container_popup_fav input:checked ~ .checkmark {
+  background-color: #FE9CF2;
+}
+
+
+
+/* Show the checkmark when checked */
+.container_popup_fav input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container_popup_fav .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container_popup_fav {
+  display: inline-block;
+  position: relative;
+  padding-left: 5px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+	
+.btn-Done_fav{
+	width: 100px;
+    padding: 5px;
+	color:#fff;
+	background: rgb(118,189,227);
+background: -moz-linear-gradient(99deg, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+background: -webkit-linear-gradient(99deg, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+background: linear-gradient(99deg, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+border-radius:15px;
+border:0;
+outline: 0;
+cursor:pointer;
+opacity:0.7}
+.btn-Done_fav:hover{
+	opacity:1}
+
+.btn-Done_fav,
+.btn-Done_fav:focus,
+.btn-Done_fav:active {
+    border: 0;
+    outline: 0;
+}
+.HR_DIV {
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);
+    height: 4px;
+    border-radius: 5px;
+}
+.img_chance_win{
+	
+	background-image:url(../images/Win/crown.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:20px;
+	 height:20px;
+	 border-radius:50%;
+	 padding:18px;
+	 margin:auto}
+.box-win{
+	
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-align: center;
+	 cursor:pointer;
+    box-shadow: 3px 3px 2px #ccc;
+	margin: auto;
+	margin-bottom:5px
+	}
+.box-win:hover{
+	background:#ccc}
+.wintxt{
+	color:#FE9CF2}
+.titlechance{
+	margin:auto;text-align:center;padding:10px}
+.imgchancebox{
+	background-image:url(../images/Win/award.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	border:1px solid #ccc;
+	box-shadow:2px 3px 3px #ccc;
+	padding:18px;
+	margin:auto}
+.btn_chance{
+	width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background: rgb(150,116,175);
+    background: -moz-linear-gradient(0deg, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: -webkit-linear-gradient(
+0deg
+, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: linear-gradient(
+0deg
+, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9674af",endColorstr="#76bde3",GradientType=1);
+}
+
+.profilpic {
+    max-width: 100px;
+    background-color: #fff;
+    height: 100px;
+background-image: url(../images/search/person-title.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: auto;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+.profilpic_change {
+    margin-top: 20px;
+	text-align:center
+}
+.profilpic_change_input {
+    display: none !important;
+    visibility: hidden !important;
+}
+.user_on {
+    position: relative;
+    /* top: 0; */
+    font-size: 30px;
+    /* padding-bottom: 20px; */
+    -webkit-border-radius: 0.375rem;
+    border-radius: 50%;
+    margin-left: 5.2rem;
+    color: #fff;
+    margin-top: -2.1rem;
+    color: #0ACB6B;
+	    text-align: center;
+		border-radius:50%;
+		
+}
+.box-profile{
+	padding:10%;
+	padding-bottom:5px}
+.lbltxtadd{
+ opacity:0.7;
+ cursor:pointer}
+.lbltxtadd:hover{
+	opacity:1}
+.btn-Done_reg{
+	
+	float:right;
+	margin-top:10px;
+	width: 100px;
+    padding: 5px;
+    color: #fff;
+    background: rgb(118,189,227);
+    background: -moz-linear-gradient(99deg, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(118,189,227,1) 20%, rgba(150,116,175,1) 100%);
+    border-radius: 15px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    opacity: 0.7;}
+.profilpic_change_box{
+	margin:12px}
+@media (max-width:600px){
+	 .box-profile{
+		 padding: 12% 1% 5px 1%;
+		 
+		 }
+	.favitem>.favitem_{
+		    width: 30%;}
+		 
+	 
+	 
+	 }
