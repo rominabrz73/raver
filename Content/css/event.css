@@ -24,9 +24,9 @@ width:100%}
 	padding: 10px;margin:10px auto}
 .calender_event{
 	background-color: #fff;
-    width: 60px;
+   min-width: 60px;
     margin: 15px 15px -15px 15px;
-    height: 60px;
+    min-height: 60px;
     border-radius: 5px;
     padding: 6px;
     font-size: 15px;position: absolute;

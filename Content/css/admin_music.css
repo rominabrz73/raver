@@ -1,0 +1,121 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+  
+}
+
+.close {
+  cursor: pointer;
+ font-size:14px;
+ float:none !important;
+ color:#FF0000;
+  transform: translate(0%, -50%);
+}
+
+.close:hover {background: #bbb;}
+.editbox{
+	margin-bottom:2px}
+
+.box_btn_chance {
+    text-align: center;
+    margin: 15px 5px;
+}
+.btn_chance {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    background: rgb(150,116,175);
+    background: -moz-linear-gradient(0deg, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: -webkit-linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9674af",endColorstr="#76bde3",GradientType=1);
+}
+button:focus {
+    outline: none !important;
+   
+}
+
+
+
+.titlechance {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.containerticket{
+	padding:6%}
+
+
+.none{
+	display:none !important}
+.input_txt_add{
+	display:none}
+.addnew{
+	color:#0000CC;
+	cursor:pointer;
+	font-size:14px;
+	font-weight:600;
+	
+	}
+.HR_DIV {
+	    margin-bottom: 15px;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient( 
+99deg
+ , rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient( 
+99deg
+ , rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);
+    height: 4px;
+    border-radius: 5px;
+}
+.captxtbox{
+	    font-size: 17px;
+    margin: 15px 5px;}
+.radioboxperminum{
+	    margin: 0% 18%;}
+.Btn_More{
+	padding:0 !important}
+.btn_chance {
+	width:300px !important}
+.inputtxt_add >input{
+		max-width:50px}
+.perminumitem{
+	box-shadow: 2px 2px 2px;
+	border:1px solid #ccc;
+	border-radius:5px}
+.inputtxtadd > input{
+	max-width:50px}
+	
+	
+.musictypetitle{
+	padding:5px;
+	font-weight:600;
+	font-size:14px;
+	}	
+.submusictitle{
+	opacity:0.8;
+	font-weight:600;
+	font-size:13px;
+	    list-style: decimal;}
+
+@media (max-width:500px){
+	.containerticket{
+		padding-top:13% !important}}

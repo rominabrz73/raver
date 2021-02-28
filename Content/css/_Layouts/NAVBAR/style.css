@@ -9,7 +9,7 @@ a:hover {
     text-decoration: none;
     outline: none;
 }
-a:hover{
+.active:hover{
       color: #2079FF;
       text-decoration: none;
 }
@@ -31,7 +31,7 @@ a:hover{
 .about {
     -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-	<div class="row container-fluid">
+
 			
 }
 .padding-left-50{
@@ -172,9 +172,7 @@ ul > li{
   margin:0px;
   padding: 0px;
 }
-ul{
-  padding: 0
-}
+
 .Tishter_logo{
   width: 60px;
 }

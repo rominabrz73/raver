@@ -1,6 +1,6 @@
 body{
 	      overflow: hidden;
-   ;
+  
 }
 section{
 	      
@@ -18,11 +18,7 @@ section{
     background: linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
     filter: progid:DXImageTransform.Microso;
 		*z-index: 99990;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -ms-sticky
-    position: -o-sticky;
-    position: sticky;
+   
     top: 0;
     min-width: 100%;
     width: 100%;

@@ -1,0 +1,101 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+  
+}
+.box_btn_chance {
+    text-align: center;
+    margin: 15px 5px;
+}
+.btn_chance {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    background: rgb(150,116,175);
+    background: -moz-linear-gradient(0deg, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: -webkit-linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9674af",endColorstr="#76bde3",GradientType=1);
+}
+button:focus {
+    outline: none !important;
+   
+}
+.box-win:hover{
+	border:2px solid #FE9CF2;
+}
+.cover_img_edit:hover{
+	opacity:1}
+.cover_img_edit{
+	opacity: 0.7;
+    border: 4px #ccc dashed;
+	cursor:pointer;
+	text-align:center }
+.imgchancebox {
+    background-image: url(../images/Win/award.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 3px 3px #ccc;
+    padding: 18px;
+    margin: auto;
+}
+.titlechance {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.box-win {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #ccc;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.img_chance_win {
+    background-image: url(../images/Win/crown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 18px;
+    margin: auto;
+}
+.containerticket{
+	padding:6%}
+.btn_chance:hover{
+	opacity:1}
+.wintxt {
+    color: #FE9CF2;
+}
+.deswin>select{
+	margin-bottom:5px}
+.deswin >input{
+	border: 1px solid #000;
+    width: 100%;
+    height: auto}
+.none{
+	display:none !important}
+@media (max-width:500px){
+	.containerticket{
+		padding-top:13%}}

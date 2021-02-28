@@ -1,0 +1,195 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+  
+}
+button:focus {
+    outline: none !important;
+   
+}
+.cover_img_edit:hover{
+	opacity:1}
+.cover_img_edit{
+	opacity: 0.7;
+    border: 4px #ccc dashed;
+	cursor:pointer;
+	text-align:center }
+.containerticket {
+    padding: 10px 10%;
+}
+.calender_event >div{
+	margin:5px}
+.des_event_ticket>div{
+	margin:5px}
+.des_event_ticket_{
+	width:100%}
+.about{
+	position:relative !important}
+.col-a-profile{
+	background-color:#fff;overflow:auto;position:sticky;top:0;
+	border-right:1px solid #ccc;padding-right: 0;
+	box-shadow:3px 3px 3px #ccc;
+	padding-left:0
+	
+	}
+.item_admin{
+	height:50px;
+	vertical-align:middle;
+	    font-size: 12px;
+  font-weight:600;
+  opacity:0.8;
+  cursor:pointer;
+	
+	display:flex;padding:10px}
+.profilpic_change,.profilpic_change>form ,.profilpic_change>form>label {
+	width:100%;
+	height:100%;
+	cursor:pointer}
+.item_admin>span{
+	padding:3px}
+.item_admin:hover{
+	background-color:#FC9}
+.item_admin_active{
+	background-color:#fafafa;
+	border-left:7px solid  #FE9CF2;
+	opacity:1; 
+	box-shadow:3px 1px 3px  
+   }
+.box-event_{
+	
+	background-image: url(../images/tab-bar/event.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25PX;
+    height: 25PX;
+    
+	}
+.box_competition{
+	background-image:url(../images/tab-bar/award.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:25PX;height:25PX}
+
+
+.btn_save{
+	width: 90px;
+    color: #fff;
+    float: right;
+    border-radius: 5PX;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImag}
+.btn_save:hover{
+	opacity:1}
+.back-none{
+	background:#fff !important}
+.Arrowcola{
+	position: fixed;
+    left: 0px;
+    margin-top: 120px;
+    width: 15px;
+    height: 60px;
+	    z-index: 99987;
+    background-color: rgba(0,0,0,0.25);
+    background-image:url(../images/tab-bar/col_a_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20px;
+    overflow: hidden;
+    cursor: pointer;-webkit-border-radius: 0 100% 100% 0;
+    -moz-border-radius: 0 100% 100% 0;
+    -ms-border-radius: 0 100% 100% 0;
+    -o-border-radius: 0 100% 100% 0;
+    border-radius: 0 100% 100% 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;}
+.flip-horizontal {
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    filter: fliph;
+}
+
+.profilpic_change >label{
+	cursor:pointer}
+.profilpic_change_input{
+	display: none !important;
+    visibility: hidden !important;}
+.box-profile{
+	padding:10px;margin:0 auto; overflow:auto}
+.profilephotos{
+	display:flex;justify-content: center;}
+.preprofilephotos{
+	cursor:pointer;
+	background-image:url(../images/search/point-left.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 20PX;    margin: auto 0;
+		height: 20px;}
+.Profile_photo{
+	background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width:47%;border-radius:7px}
+.profilephotosnext{
+	cursor:pointer;
+	background-image:url(../images/search/point-right.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 20PX;    margin: auto 0;
+		height: 20px;}
+.box-event_comp{
+	 display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;}
+.box-ev_com{
+	width:100px;height:80px; border-radius:5px;border:1px solid #ccc;    margin: 10px;box-shadow:3px 3px 3px #ccc;vertical-align:central;cursor:pointer;padding:15px}
+
+
+.box-txtevent{
+	padding:2px;text-align:center}
+
+.containertickettitle{
+	margin-bottom:30px}
+
+.pad-5{
+	padding:5px}
+
+.profilpic{
+	max-width: 100px;
+    background-color: #fff;
+    height: 100px;
+    background-image: url(../../images/venues_list/add_photo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+	 box-sizing: border-box;
+    background-size: auto;border-radius:50%;border:1px solid #ccc;margin:auto}
+.profilpic_change > label{
+	cursor:pointer}
+
+.profilpic_change{
+	margin-top:20px}

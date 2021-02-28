@@ -1,0 +1,36 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+   
+    overflow-y:auto;
+}
+.Profile_photo{
+	    max-width: 300px;
+    background-color: #fff;
+    height: 100px;
+background-image:url(../images/asset-19@2x.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: auto;}
+	.containerticket {
+    padding: 6%;
+}
+.name-admin{
+	font-weight:600;
+	font-size:15px;
+	color:#666666;
+	padding:10px}
+
+.containerticket{padding:6%}
+@media (max-width: 500px){
+.containerticket {
+    padding-top: 13%;
+}}

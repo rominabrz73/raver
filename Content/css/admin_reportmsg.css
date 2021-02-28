@@ -1,0 +1,39 @@
+table, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+.reptitle{
+	font-weight:600}
+.headreptabel{
+	display:flex;
+	padding:5px}
+thead{
+	background-color:#0CF;
+	padding:5px;}
+thead >tr >td{
+	text-align:center}
+.containerticket {
+    padding: 6%;
+}
+table{margin-top:7px}
+.repmsgbox{
+	width: 100%;
+    overflow-x: auto;
+	margin-top:20px}
+.opc_8{
+	opacity:0.8}
+.msgrep{
+	    background: #fff;
+	padding:10px;
+	overflow:auto;
+	max-height:100px}
+.pointer{
+	cursor:pointer}
+.box-profile{overflow:auto}
+.headreptabel:hover{
+	background-color:#06F}
+@media (max-width: 500px){
+.containerticket {
+    padding-top: 13%;
+}
+}
