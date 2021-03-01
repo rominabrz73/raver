@@ -40,8 +40,8 @@
   <script src="Scripts/raver/dropdown.js"></script>
    
   <link href="Content/css/event.css" rel="stylesheet" type="text/css">
-
-
+<link href="Content/css/alert1/alert1.css" rel="stylesheet" type="text/css">
+<script src="Scripts/raver/alert1/alert1.js"></script>
 
   </head>
   <body>
@@ -929,11 +929,25 @@
 				
 			</div>
 		</div>
+		
+<div class="det_alert1 zindex_det_alert det_alert1-bottom-right">
+</div>
 	</section>
 												
 	<script type="text/javascript" language="javascript">
 
-	
+	det_alert1_item_add({
+					id          :'demo-alert1_0000'
+					,class      :'aaaaaa bbbb'
+					,closeDelay :0 // int   ,   0 => forever
+					,closeBtn   :true
+					,type       :'info' // '' | alert | success | warning | error | info
+					,icon       :true
+					,iconStr    :'' // ''| alert | success | warning | error | info | '<i class="fas fa-check-circle"></i>'
+					,title      :'Info'
+					,text       :' advertisment'
+					
+				});
 $(window).on('resize', function(){
 	
 			var wwindow = $(window).width() ;
