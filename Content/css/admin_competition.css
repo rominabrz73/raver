@@ -88,14 +88,107 @@ button:focus {
 .wintxt {
     color: #FE9CF2;
 }
-.deswin>select{
-	margin-bottom:5px}
+.deswin>div{
+	margin-bottom:5px;
+	display:flex;
+	width:100%
+	}
 .deswin >input{
 	border: 1px solid #000;
+	margin-bottom:5px;
     width: 100%;
     height: auto}
 .none{
 	display:none !important}
+.deswinitem >span{
+	width:40%}
+	.deswinitem >input{
+	width:60%}
+.deswinitem{
+	
+	width:100%;
+	}
+.titilesetbox{
+	font-size: 14px;
+    font-weight: 600;
+    padding: 5px;}
+.box_noti {
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 5px;
+	cursor:pointer;
+	margin-bottom:5px
+	
+}
+.box_comp{
+	max-height:250px;
+	overflow-y:scroll;
+	padding:6%
+	}
+.modal_tishter_black>
+ .modal_tishter_centeral> 
+ .modal_tishter_box> .modal_tishter_box_close> .modal_tishter_btn_close
+ {margin-right:20px}
+#s{ display:none}
+.box_noti:hover{
+	background-color:#fafafa}
+
+.box-noti-datetxt {
+    width: 60% !important;
+    padding: 0px !important;
+};
+.box-comp_type{
+  width:40% !important;	}
+ .modal5000{
+	 z-index:5000000 !important
+	 }
+	.modal_little{
+		width:30% !important}
+.deswinitemlit {
+    width: 100%;
+	margin-bottom:5px
+}
+.winsel{
+	    border-radius: 3px;
+
+    border: #ccc 1px solid;
+    padding: 2px;}
+.btn_grad{
+	width:40% !important ;
+	height:32px}
+.lit_comp{
+	padding-bottom:0}
+.deswinitemlit >select{
+	min-width:100px}
+.deswinitemlit >input{
+	max-width:100px}
+.deswinitemlit >span {
+	font-size:14px;
+	padding:2px;
+	
+    width: 40%;
+}
+.box-comp_type>div>a>div>label{
+	margin-bottom:0 !important}
+.black{
+	color:#000 !important}
 @media (max-width:500px){
 	.containerticket{
 		padding-top:13%}}
+		
+		
+		
+		
+		
+		@media (min-width: 1025px) and (max-width: 1399px){
+.modal_tishter_black> .modal_tishter_centeral> .modal_tishter_box {
+    width: 40%;
+    max-width: 706px;
+    max-height: 90% !important;
+    margin: 0 auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+}}

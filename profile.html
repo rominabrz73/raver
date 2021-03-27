@@ -948,6 +948,15 @@
 					,text       :' advertisment'
 					
 				});
+	$(window).on('load', function(){	
+	
+		$(".Event_photo").each(function(index, element){
+						
+								var we = $(element).width();
+		
+							$(".Event_photo").height(we/2);
+					})
+	})		
 $(window).on('resize', function(){
 	
 			var wwindow = $(window).width() ;
@@ -1003,7 +1012,7 @@ $(window).on('resize', function(){
 						
 								var we = $(element).width();
 		
-							$(".Event_photo").height(we/2);
+							$(".Event_photo").height(we);
 					})
 	
 	});			
