@@ -7,6 +7,14 @@ body {
     cursor: default;
   
 }
+.startfrombox> div >div{
+	width:60% !important}
+	.startfrombox> div >div>input{
+	width: 70%;
+    margin-left: 2px;}
+	
+.startfrombox>div{
+	display:flex}
 .box_btn_chance {
     text-align: center;
     margin: 15px 5px;

@@ -469,8 +469,14 @@
 											
 											</div>
 											<div id="s" class="deswinitem startfrombox">
+												<div>
 												<span>Start from</span>
-													<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  />
+												<div>
+													<input type="number" id="days" class="daysstart" value=""  />
+													<span>days</span>
+												</div>
+												</div>
+												
 											
 											</div>
 											</div> 
@@ -501,6 +507,25 @@
 	</section>
 												
 	<script type="text/javascript" language="javascript">
+	
+	<!--get days of startfrom and convert to second-->
+	
+	function getdays(){
+	
+			$(".btn_chance").on("click", function() {
+		var days= parseInt(document.getElementById("days").value);						
+	
+	
+var seconds =days * 24 * 60 * 60;
+
+alert(seconds)
+				
+
+})
+	}
+	
+	<!--end get days of startfrom and convert to second--
+	
 	
 	function chatpage(){
 	
