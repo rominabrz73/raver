@@ -44,6 +44,10 @@
    
   <script src="Scripts/raver/music.js"></script>
 
+<script type="text/javascript" src="Scripts/raver/calender/moment.min.js"></script>
+<script type="text/javascript" src="Scripts/raver/calender/daterangepicker.min.js"></script>
+<script type="text/javascript" src="Scripts/raver/calender/js.js"></script>
+<link href="Content/css/daterangepicker.css" rel="stylesheet" type="text/css">
 
 
   </head>
@@ -229,53 +233,70 @@
 													</ul>
 												</div>
 												</div>
-												<div class="musictypetitle">festival</div>
-												<ul>
-													
-												  <li class="submusictitle">festival1</li>
-												  <li  class="submusictitle">festival2</li>
-												  <li>
-													<div class="addbox">
-														<div class="inputtxtadd">
-															<input type="text" />
-														</div>
-														<div  class="addnew">&#43; add sub festival</div>
-													</div>
-												 </li>
-												</ul>
+												<div class="festitem_box">
+												<div class="musictypetitle">Festival Name</div>
+												<div class="itemfestbox"> <span>Date: </span>
+													<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  />
+												</div>
+												<div class="itemfestbox"><span>description: </span><div> description description.....</div></div>
+												
+												<div class="keywordfest itemfestbox">
+												<span>keyword:</span><div>keyword,keyword,</div>
+												
+												</div>
+												
+												</div>
 											  </li>
 											 	<div class="addbox">
 													<div class="inputtxtadd">
-														<input type="text" />
+														<input type="text" placeholder="Festival Name" /><br/>
+														<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  /><br/>
+														<input type="text" placeholder="Festival description" /><br/>
+														<div class="tooltip">
+														<input  type="text" placeholder="Keyword" />
+														 <span class="tooltiptext">please insert "," after keyword</span>
+														 </div>
 													</div>
 													<div  class="addnew">&#43; add  festival</div>
 												</div>
 											</ul>
 											<ul>
 											 
-											  <li class="musictypetitle">	
+											  <li>	
 											   
-											 festival <span class="close">x</span>
-												<ul>
-													
-												  <li class="submusictitle">festival1 <span class="close">x</span></li>
-												  <li class="submusictitle">festival2 <span class="close">x</span></li>
-												  <li>
-													<div class="addbox">
-														<div class="inputtxtadd">
-															<input type="text" />
-														</div>
-														<div  class="addnew">&#43; add sub festival</div>
-													</div>
-												 </li>
-												</ul>
-											  </li>
-											 	<div class="addbox">
-													<div class="inputtxtadd">
-														<input type="text" />
-													</div>
-													<div  class="addnew">&#43; add festival</div>
+											 <div class="festitem_box">
+											 <span class="close">x</span>
+												<div class="musictypetitle">Festival Name</div>
+												<div class="itemfestbox"> <span>Date: </span>
+													<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  />
 												</div>
+												<div class="itemfestbox"><span>description: </span><div> description description.....</div></div>
+												
+												<div class="keywordfest itemfestbox">
+												<span>keyword:</span><div>keyword,keyword,</div>
+												
+												</div>
+												
+												</div>
+												
+												
+												 
+													
+												 
+											  </li>
+											  <div class="addbox">
+													<div class="inputtxtadd">
+														<input type="text" placeholder="Festival Name" /><br/>
+														<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  /><br/>
+														<input type="text" placeholder="Festival description" /><br/>
+														<div class="tooltip">
+														<input  type="text" placeholder="Keyword" />
+														 <span class="tooltiptext">please insert "," after keyword</span>
+														 </div>
+													</div>
+													<div  class="addnew">&#43; add  festival</div>
+												</div>
+											 	
 											</ul>
 											<ul>
 											  <li>
@@ -286,26 +307,29 @@
 											  </li>
 											  <li>	
 											   
-												<div class="editbox"> <input type="text"  value="festival"/></div>
-												<ul>
-													
-												  <li><div class="editbox"> <input type="text"  value="festival1"/></div> </li>
-												  <li> <div class="editbox"><input type="text"  value="festival2"/> </div></li>
-												  <li>
-													<div class="addbox">
-														<div class="inputtxtadd">
-															<input type="text" />
-														</div>
-														<div  class="addnew">&#43; add sub festival</div>
-													</div>
-												 </li>
-												</ul>
+												<div class="editbox"> 
+													<input type="text" placeholder="Festival Name" value="festival"/><br/>
+														<input type="text" class="det_calender" value="2020/02/03" placeholder="MM/DD/YYYY"  /><br/>
+														<input type="text" placeholder="Festival description" value="festival.........." /><br/>
+														<div class="tooltip">
+														<input  type="text" placeholder="Keyword"  value="festkeyword," />
+														 <span class="tooltiptext">please insert "," after keyword</span>
+														 </div>
+												
+												</div>
+												
 											  </li>
 											 	<div class="addbox">
 													<div class="inputtxtadd">
-														<input type="text" />
+														<input type="text" placeholder="Festival Name" /><br/>
+														<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY"  /><br/>
+														<input type="text" placeholder="Festival description" /><br/>
+														<div class="tooltip">
+														<input  type="text" placeholder="Keyword" />
+														 <span class="tooltiptext">please insert "," after keyword</span>
+														 </div>
 													</div>
-													<div  class="addnew">&#43; add festival</div>
+													<div  class="addnew">&#43; add  festival</div>
 												</div>
 											</ul>
 																

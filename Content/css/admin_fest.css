@@ -7,16 +7,21 @@ body {
     cursor: default;
   
 }
+.box-profile {
+	overflow-y:auto}
 
 .close {
   cursor: pointer;
  font-size:14px;
  color:#FF0000;
  float:none;
+ float:right;
   transform: translate(0%, -50%);
 }
 
-.close:hover {background: #bbb;}
+.close:hover {
+	color:#FF0000 !important;
+	opcity:1}
 .editbox{
 	margin-bottom:2px}
 
@@ -91,8 +96,15 @@ button:focus {
     margin: 15px 5px;}
 .radioboxperminum{
 	    margin: 0% 18%;}
-.Btn_More{
-	padding:0 !important}
+		.itemfestbox >span{
+	font-weight:bold;
+	padding:2px}
+	.itemfestbox >div{
+	
+	padding:2px}
+.itemfestbox{
+	
+	display:flex}
 .btn_chance {
 	width:300px !important}
 .inputtxt_add >input{
@@ -102,7 +114,7 @@ button:focus {
 	border:1px solid #ccc;
 	border-radius:5px}
 .inputtxtadd > input{
-	max-width:50px}
+	margin-bottom:5px}
 	
 	
 .musictypetitle{
@@ -115,7 +127,53 @@ button:focus {
 	font-weight:600;
 	font-size:13px;
 	    list-style: decimal;}
+.festitem_box{
+	    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+	margin-bottom:5px}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0 ;
+  transition: opacity 0.3s;
+}
+
+.tooltip{
+	opacity:1 !important}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.editbox>input{
+	margin-bottom:5px}
 @media (max-width:500px){
 	.containerticket{
 		padding-top:13% !important}}
