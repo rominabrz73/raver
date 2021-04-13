@@ -42,7 +42,7 @@
   <link href="Content/css/event.css" rel="stylesheet" type="text/css">
 <link href="Content/css/alert1/alert1.css" rel="stylesheet" type="text/css">
 <script src="Scripts/raver/alert1/alert1.js"></script>
-
+<script src="Scripts/raver/slid.js"></script>
   </head>
   <body>
 
@@ -192,6 +192,39 @@
 							
 						</div>
 					</li>
+					<li class="mar-5">
+						<div class="box_noti"  >
+							
+					
+							
+							<div class="box-noti-datetxt date_noti_userbox">
+								
+								<div class="date_noti date_noti_user" >Thu Des 1 06:38:43 2020</div>
+							
+							</div>
+								<div class="box_topic" >
+									<div class="box_topic_noti_alert" ></div>
+								</div>
+							
+						</div>
+					</li>
+					<li class="mar-5">
+						<div class="box_noti"  >
+							
+					
+							
+							<div class="box-noti-datetxt date_noti_userbox">
+								
+								<div class="date_noti date_noti_user" >Thu Des 1 06:38:43 2020</div>
+							
+							</div>
+								<div class="box_topic" >
+									<div class="box_topic_noti_like" ></div>
+								</div>
+							
+						</div>
+					</li>
+					
 					
 				
 				</ul>
@@ -262,6 +295,17 @@
 																  <input type="checkbox">
 																  <span class="slider round"></span>
 																</label>	
+															</div>
+															<div class="rowsettxt">
+																<div class="txtset">Deny pepole to see your online status</div>
+																<label class="switch">
+																  <input type="checkbox">
+																  <span class="slider round"></span>
+																</label>	
+															</div>
+															<div class="rowsettxt">
+																<div class="txtset">pepole in the range below can see your profile</div>
+																	
 															</div>
 														</div>
 														
@@ -868,17 +912,35 @@
 			</div>
 			<div class="col-md-8 col-sm-8  box-profile "  >
 				<div class="container" style="justify-content: center;" >
-					<div class="profilephotos" >
-						<div class="preprofilephotos"></div>
+				
+					<div class="mySlides">
+						<div class="profilephotos" >
+							<div class="preprofilephotos" onclick="plusSlides(1)"></div>
+							
+							<div  class="Profile_photo" style="background-image:url(Content/images/EHK-o-1@2x.png);" >
+							</div>
+							<div class="profilephotosnext" onclick="plusSlides(-1)"  ></div>
 						
-						<div  class="Profile_photo" style="background-image:url(Content/images/EHK-o-1@2x.png);" >
 						</div>
-						<div class="profilephotosnext"  ></div>
-					
+						<div class="text-center pad-5">
+						 <div> Name</div>
+						 <div> Location</div>
+						</div>
 					</div>
-					<div class="text-center pad-5">
-					 <div> Name</div>
-					 <div> Location</div>
+					<div class="mySlides">
+						<div class="profilephotos" >
+							<div class="preprofilephotos" onclick="plusSlides(1)"></div>
+							
+							<div  class="Profile_photo" style="background-image:url(Content/images/hanny-naibaho-388579-unsplash-810x540.png)" >
+							
+							</div>
+							<div class="profilephotosnext"   onclick="plusSlides(-1)"></div>
+						
+						</div>
+						<div class="text-center pad-5">
+						 <div> Name</div>
+						 <div> Location</div>
+						</div>
 					</div>
 					<div class="box-event_comp" >
 						<!-- Modal: -->

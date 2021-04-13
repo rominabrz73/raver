@@ -472,6 +472,10 @@ ul > .active {
 	height:60px}
 .navbar-menu{
 	display:flex;margin:0;padding:17px 0}
+.date_noti_user{
+	float:left !important}
+.date_noti_userbox{
+	width:90% !important}
 
 @media (max-width:500px){
 	.det_search_input_1{
