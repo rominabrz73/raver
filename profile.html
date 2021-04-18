@@ -18,7 +18,7 @@
     <script src="Scripts/jqueryui/jquery-ui-1.10.3.min.js"></script>
     <script src="Scripts/jqueryui/jquery.ui.touch-punch-0.2.2.min.js"></script>
     <!-- Bootstrap: -->
-    <script src="Scripts/popper.min.js" language="javascript" type="text/javascript"></script>
+	<script src="Scripts/popper.min.js" language="javascript" type="text/javascript"></script>
     <link href="Content/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
     <link href="Content/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="Scripts/bootstrap.min.js"></script>
@@ -31,19 +31,30 @@
 
 
   
+     <script src="Scripts/raver/editdelete.js" ></script>
     <link href="Content/css/_Layouts/NAVBAR/style.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/_Layouts/body.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/profile.css" rel="stylesheet" type="text/css">
 	
 	<link href="Content/css/favouriate.css" rel="stylesheet" type="text/css">
 	
+	<link href="Content/css/edit_delete.css" rel="stylesheet" type="text/css">
   <script src="Scripts/raver/dropdown.js"></script>
    
+  <link href="Content/css/range.css" rel="stylesheet" type="text/css">
   <link href="Content/css/event.css" rel="stylesheet" type="text/css">
-<link href="Content/css/alert1/alert1.css" rel="stylesheet" type="text/css">
-<script src="Scripts/raver/alert1/alert1.js"></script>
+   <script src="Scripts/raver/range.js"></script>
+<!--<link href="Content/css/alert1/alert1.css" rel="stylesheet" type="text/css">
+<script src="Scripts/raver/alert1/alert1.js"></script>-->
 <script src="Scripts/raver/slid.js"></script>
+
+	 
+	
+
+ 
+  
   </head>
+ 
   <body>
 
    
@@ -303,8 +314,32 @@
 																  <span class="slider round"></span>
 																</label>	
 															</div>
-															<div class="rowsettxt">
-																<div class="txtset">pepole in the range below can see your profile</div>
+															<div >
+																<div class="txtseth">pepole in the range below can see your profile</div>
+																
+																<div class="container1">
+																	  <div class="row">
+																		<div class="col-sm-12">
+																		  <div id="slider-range"></div>
+																		</div>
+																	  </div>
+																	  <div class="row slider-labels">
+																		<div class="col-6 caption">
+																		  <strong>Min:</strong> <span id="slider-range-value1"></span>
+																		</div>
+																		<div class="col-6 text-right caption">
+																		  <strong>Max:</strong> <span id="slider-range-value2"></span>
+																		</div>
+																	  </div>
+																	  <div class="row">
+																		<div class="col-sm-12">
+																		  <form>
+																			<input type="hidden" name="min-value" value="">
+																			<input type="hidden" name="max-value" value="">
+																		  </form>
+																		</div>
+																	  </div>
+																	</div>
 																	
 															</div>
 														</div>
@@ -621,11 +656,52 @@
 						
 						<div class="profilpic_change ">
 							<form action="" method="post" enctype="multipart/form-data" >
-									<label >Change Profile Picture 
+									<label >add new Picture 
 										<input  class="profilpic_change_input"type="file" camera="camera" accept="image/*" >
 									</label>
 							</form>
 						</div>
+						<div class="profillepiclitbox" >
+								<div class="profillepiclitbox">
+									<div class="Profile_photo_lit" >
+									
+									</div>
+									<div class=" Profile_photo_lit" >
+										<div class="more">
+									<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
+									<div id="popover-content" class="list-group none"  >
+										<ul class="More_Item">
+											<li> <a href="#"> set to profile picure </a></li>
+											<li> <a href="#"><i class="fas fa-eye-slash"></i> Hide </a></li>
+										</ul>
+									</div>
+														
+													
+										</div>
+										<i class="fa fa-eye eye" aria-hidden="true"></i> 
+									</div>
+									<div class=" Profile_photo_lit eyeslashhide">
+										<i class="fas fa-eye-slash eye"></i> 
+									</div>
+									<div class=" Profile_photo_lit">
+										<div class="more">
+									<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
+									<div id="popover-content" class="list-group none"  >
+										<ul class="More_Item">
+											<li> <a href="#"> set to profile picure </a></li>
+											<li> <a href="#"><i class="fas  fa-eye-slash"></i> Hide </a></li>
+										</ul>
+									</div>
+														
+													
+										</div>
+								
+											<i class="fa fa-eye eye" aria-hidden="true"></i> 
+										
+									</div>
+									
+								</div>
+							</div>
 						<div>Developer ,90,5"2 </div>
 						
 														
@@ -911,6 +987,7 @@
 			
 			</div>
 			<div class="col-md-8 col-sm-8  box-profile "  >
+			
 				<div class="container" style="justify-content: center;" >
 				
 					<div class="mySlides">
@@ -1161,7 +1238,7 @@
 												
 	<script type="text/javascript" language="javascript">
 
-	det_alert1_item_add({
+	/*det_alert1_item_add({
 					id          :'demo-alert1_0000'
 					,class      :'aaaaaa bbbb'
 					,closeDelay :0 // int   ,   0 => forever
@@ -1172,7 +1249,7 @@
 					,title      :'Info'
 					,text       :' advertisment'
 					
-				});
+				});*/
 	$(window).on('load', function(){	
 	
 		$(".Event_photo").each(function(index, element){
@@ -1296,14 +1373,29 @@ $(window).on('resize', function(){
 
     }
 
-});		
+});	
+
+ $('.noUi-handle').on('click', function() {
+    $(this).width(50);
+  });
+  var rangeSlider = document.getElementById('slider-range');
+  var moneyFormat = wNumb({
+    decimals: 0,
+    thousand: ',',
+    postfix: '  YO'
+  });
+  noUiSlider.create(rangeSlider, {
+    start: [30, 99],
+    step: 1,
+    range: {
+      'min': [18],
+      'max': [99]
+    },
+    format: moneyFormat,
+    connect: true
+  });	
 
 
-				
-	
-
-						
-							
 </script>
   </body>
   

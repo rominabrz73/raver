@@ -8,6 +8,10 @@ body {
    
     overflow-y:auto;
 }
+.txtseth{
+	width: 100%;
+    font-weight: 600;
+	margin-bottom:15px}
 .btn_save{
 	width: 90px;
     color: #fff;
@@ -65,6 +69,8 @@ body {
 	background-color:#fff;overflow:auto;position:sticky;top:0
 	
 	}
+li:hover{
+	border:none !important}
 .profilpic_change >label{
 	cursor:pointer}
 .profilpic_change_input{
@@ -726,7 +732,90 @@ border-right: 3px solid #f00 !important;
     filter: progid}
 	.descurtoken{
 		vertical-align: super;}
+	.profillepiclitbox {
+    display: inline-flex;
+    width: 100%;
+	margin:auto
+}
+.Profile_photo_lit {
+    width: 25% !important;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin: 5px 2px !important;
+	 background-image: url(../images/EHK-o-1@2x.png);
+	   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  min-height:50px;
+    border-radius: 5px;
+}
+.profile_mach_pic {
+  
+}
+.eyeslashhide{
+	opacity:0.4;
+	cursor:pointer}
+
+.eye{   
+    color: #FE9CF2;
 	
+	font-size: 19px;
+    
+    padding: 0;
+    margin: 0;
+    float: left;
+    border-radius: 20px;}
+
+.none{
+	display:none !important}
+.bs-popover-bottom{
+	z-index:900000000 !important}
+	.Btn_More{
+
+    /* padding: 0; */
+ 
+    /* border: none; */
+    /* color: #FE9CF2; */
+    /* width: 10px; */
+    /* height: 27px; */
+    background-color: #FE9CF2 !important;
+   
+    border-radius: 7px !important;
+    font-size: 20px !important;
+    padding: 1px !important;
+    
+	}
+	.btn-filter_box {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    float: right;
+	margin:10px 0
+}
+.btn-filter {
+    width: 90px;
+    color: #fff;
+    float: right;
+    border-radius: 5PX;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);
+}
+.btn-filter:hover{
+	opacity:1}
+
 @media (max-width:860px) {
 		
 .boostmain_box{
