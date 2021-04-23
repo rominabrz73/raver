@@ -1,0 +1,184 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+  
+}
+thead {
+    background-color: #0CF;
+    padding: 5px;
+}
+table {
+	width:100%
+}
+.activetitle{display:flex;
+padding:5px
+}
+.btn_chance:hover{
+	opacity:1}
+.box_btn_activetc{
+	position: sticky;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    float: right;
+    margin: 10px 0;
+	text-align:end}
+.btn_chance {
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    background: rgb(150,116,175);
+    background: -moz-linear-gradient(0deg, rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: -webkit-linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    background: linear-gradient( 
+0deg
+ , rgba(150,116,175,1) 0%, rgba(118,189,227,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9674af",endColorstr="#76bde3",GradientType=1);
+}
+.box_btn_chance {
+    text-align: center;
+    margin: 15px 5px;
+}
+.tbtc{
+border: 1px solid #ccc;	}
+table, th, td {
+    
+    border-collapse: collapse;
+}
+.msgrep {
+    background: #fff;
+    padding: 10px;
+    overflow: auto;
+    max-height: 100px;
+}
+.repmsgbox {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+.txt_tc{
+	background-color: #FFF;
+    text-align: justify;
+    padding:5px;
+    outline: 0px !important;
+    height: 30px;
+    width: 97%;
+    max-width: 100%;
+    margin:10px;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+	resize: none; overflow-y: auto; height: 160px; display: inline-block;}
+button:focus {
+    outline: none !important;
+   
+}
+.activetitle>div{
+	width:50%}
+.des_avt {
+    padding: 10px 0;
+   
+}
+.profile_useradmin_{
+padding: 0;
+    margin: auto;	
+	}
+
+.des_user_title{
+	
+	font-weight:600;
+	font-size:12px}
+.des_avt_item{
+	display:flex;
+	margin:5px}
+
+.des_avt_answ{
+	padding-left:5px;}
+
+.none{
+	display:none !important}
+
+
+.box_ticketevent{
+	cursor:pointer}
+.box_ticketevent:hover{
+	background-color:#ccc}
+.red{
+	color:#F00}
+
+.profilpic_change,.profilpic_change>form ,.profilpic_change>form>label {
+	width:100%;
+	height:100%;
+	cursor:pointer}
+.item_admin>span{
+	padding:3px}
+.item_admin:hover{
+	background-color:#FC9}
+
+
+
+.btn_save{
+	width: 90px;
+    color: #fff;
+    float: right;
+    border-radius: 5PX;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient(
+99deg
+, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImag}
+.btn_save:hover{
+	opacity:1}
+.back-none{
+	background:#fff !important}
+
+.profilpic_change >label{
+	cursor:pointer}
+.profilpic_change_input{
+	display: none !important;
+    visibility: hidden !important;}
+.box-profile{
+	padding:10px;margin:0 auto; overflow:auto}
+.profilephotos{
+	display:flex;justify-content: center;}
+
+.box-txtevent{
+	padding:2px;text-align:center}
+
+.containertickettitle{
+	margin-bottom:30px}
+
+.profile_useradmin{
+	margin-left:2px;
+	background-image:url(../images/asset-13.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+.profilpic_change{
+	margin-top:20px}
+.cover_adv_img{
+	background-image:url(../images/EHK-o-1@2x.png);}

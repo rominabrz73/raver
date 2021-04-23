@@ -33,16 +33,14 @@
   
     <link href="Content/css/_Layouts/NAVBAR/style.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/_Layouts/body.css" rel="stylesheet" type="text/css">
-
-	<link href="Content/css/admin_perminum.css" rel="stylesheet" type="text/css">
+	<link href="Content/css/admin_user.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/event.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/edit_delete.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/favouriate.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/admin_cola.css" rel="stylesheet" type="text/css">
-	
   <script src="Scripts/raver/dropdown.js"></script>
-   
-
+    
+  <script src="Scripts/raver/page.js"></script>
 
 
 
@@ -57,12 +55,16 @@
 
           <div class="navbar-collapse" id="topnavbar">
             <ul class=" mr-auto navbar-menu" >
-              
+              <li>
+						<div class="logoraver"></div>
+					
+				</li>
               <li class="active"><a href="#" title="About"><div class="msg_imglink"> </div></a>
 			  
 			  
 			  	<ul class="dropdown drop-none" >
 					<li class="titledropdown">Messages</li>
+					
 					<li class="mar-5">
 						<div class="box_msg " >
 							<div class="img_msg " ></div>
@@ -136,10 +138,15 @@
 			  </li>
 			  	<li><a href="#" title="link"><div class="prof_imglink"> </div></a></li>
 			 
-              	<li  class="searchbox">
+              	<li  class="searchbox adminsearchbox">
+					<select class="det_search_select">
+						<option>name</option>
+						<option>Email</option>
+						<option>username</option>
+														
+					</select>	
+					<input type="text" class="det_search_input_1" placeholder="Search by... " />
 					
-					<input type="text" class="det_search_input_1" placeholder="Search... " />
-						
 					
 				</li>
 				
@@ -156,10 +163,10 @@
     </header>
 	
    <section  class=" back-none">
-		<div class="container-fluid"  >
-			<div class="row ">
-				<button class="Arrowcola" ></button>
-				<div class=" col-md-3 col-sm-3  col-a-profile" >
+   	<div class="container-fluid"  >
+		<div class="row ">
+			<button class="Arrowcola" ></button>
+			<div class=" col-md-3 col-sm-3  col-a-profile" >
 					<div >
 						
 						<div class="center" >
@@ -168,7 +175,7 @@
 								<div class="box_home"></div>
 								<span>Dashbord</span>
 							  </div>
-							  <div class="item_admin ">
+							  <div class="item_admin  ">
 								<div class="box-event_ "></div>
 								<span>Event</span>
 							  </div>
@@ -181,7 +188,7 @@
 							   <div class="boost"></div>
 								<span>Boost token</span>
 							  </div>
-							   <div class="item_admin item_admin_active">
+							   <div class="item_admin">
 									<div class="permium_box"></div>
 									<span>Permium</span>
 							  </div>
@@ -193,125 +200,193 @@
 								<div class="music_box"></div>
 								<span>music</span>
 							  </div>
-							  <div class="item_admin">
-								<div class="advrt_box"> </div>
-								<span>averts</span>
-							  </div>
+							 <!-- <div class="item_admin ">
+								<div class="advrt_box "> </div>
+								<span>advertisement</span>
+							  </div>-->
 							  <div class="item_admin ">
 								<div class="fest_box"> </div>
 								<span>festival</span>
 							  </div>
+							  <div class="item_admin ">
+								<div class="approv_box "> </div>
+								<span>approved images</span>
+							  </div>
+							  <div class="item_admin ">
+								<div class="tc_box "> </div>
+								<span>T&C </span>
+							  </div>
+
 							  
 						</div>
 					</div>
 				</div>
+			
+			
+			
+			<div class="col-md-9 col-sm-9  box-profile "  >
 				
-				
-				
-				<div class="col-md-9 col-sm-9  box-profile "  >
 					<div class="container-fluid containerticket" >
-								<div class="main_purchase">
-															<div >
-																<div class="titlepermium" >
-																<h4>Purchase Perminum Account</h4>
-																</div>
-															<div class="HR_DIV"></div>
-																<div class="captxtbox" >you are Purchasting Permium Account.Here Are Our Premium Plans.</div>
-																<div class="radioboxperminum">
-																	<div class="perminumitem">
+															<div class="containertickettitle" >
+																<h2>users</h2>
+															</div>
+															<div class="row">
+																<div class="col-md-4">
+																<div class="box_ticketevent">
+															
+																
+																
 																		<div class="more">
-													<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
-													<div id="popover-content" class="list-group none" >
-														<ul class="More_Item">
-															<li> <a href="#"><i class="far fa-trash-alt"></i> Delete </a></li>
-															<li> <a href="#"><i class="fas fa-edit"></i> Edit </a></li>
-														</ul>
-													</div>
-												</div>
-																		 
-																		  <label for="1">10$/1months</label><br>
-																	  </div>
-																	  
-																	<div class="perminumitem">
+																		<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
+																		<div id="popover-content" class="list-group none" >
+																			<ul class="More_Item">
+																				<li> <a href="#" class="closelink"> Close account </a>
+																				</li>
+																				
+																				</li>
+																				
+																			</ul>
+																		</div>
+																
+															
+														</div>
+														
+													
+																		<div class="row des_avt">
+																			
+																			<div class="col-4 profile_useradmin_"> 
+																				<div class="profile_useradmin Profile_photo">
+																					
+																				</div>
+																			
+																			</div>
+																			 <div class="col-8">
+																			<div class="des_avt_item">
+																				<div class="des_user_title">name: </div>
+																				<span class="des_avt_answ">name</span>
+																			</div>
+																				<div class="des_avt_item">
+																				<div class="des_user_title">Email: </div>
+																				<span class="des_avt_answ">email</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div class="des_user_title">Birth: </div>
+																				<span class="des_avt_answ">birthday</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div class="des_user_title">Country: </div>
+																				<span class="des_avt_answ">Country</span>
+																			</div>
+																			<div class="des_avt_item">
+																			
+																				<div class="des_user_title">city: </div>
+																				<span class="des_avt_answ">city</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div  class="des_user_title">status: </div>
+																				<span class="des_avt_answ userstatus" >active</span>
+																			</div>
+																			</div>
+																			
+																			
 																		
-																		 <div>
-																	  
-																		<div class="inputtxt_add">
-																		<input type="text"  value="10"/>$ /<input type="text" value="1" />months</div>
-																			 
-																	  </div>
-																	  
-																	  </div>
-																	  <div>
-																	  
-																		<div class="inputtxtadd">
-																		<input type="text" />$ /<input type="text" />months</div>
-																			<div  class="addnew">&#43; add new</div>
-																	  </div>
-																	  
-																	  
-																	  
-																	 
+																		</div>
 																		
-																	 
+																	
 																	</div>
 																	
-																
-															 
+																</div>
+																<div class="col-md-4">
+																<div class="box_ticketevent">
 															
-															</div>	
-															
-															
-								</div>
-							
-								<div class="box_btn_chance">
-									<button class="btn_chance">Save Changes</button>
-								
-								</div>
-								
-								
-								
-								
-								
-								
-								
 																
 																
-					</div>
+																		<div class="more">
+																		<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
+																		<div id="popover-content" class="list-group none" >
+																			<ul class="More_Item">
+																				
+																				<li> <a href="#" class="activelink"> active account </a>
+																				</li>
+																				
+																			</ul>
+																		</div>
+																
+															
+														</div>
+														
+													
+																		<div class="row des_avt">
+																			
+																			<div class="col-4 profile_useradmin_"> 
+																				<div class="profile_useradmin Profile_photo">
+																					
+																				</div>
+																			
+																			</div>
+																			 <div class="col-8">
+																			<div class="des_avt_item">
+																				<div class="des_user_title">name: </div>
+																				<span class="des_avt_answ">name</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div class="des_user_title">Email: </div>
+																				<span class="des_avt_answ">email</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div class="des_user_title">Birth: </div>
+																				<span class="des_avt_answ">birthday</span>
+																			</div>
+																			<div class="des_avt_item">
+																				<div class="des_user_title">Country: </div>
+																				<span class="des_avt_answ">Country</span>
+																			</div>
+																			<div class="des_avt_item">
+																			
+																				<div class="des_user_title">city: </div>
+																				<span class="des_avt_answ">city</span>
+																			</div>
+																			
+																			<div class="des_avt_item">
+																				<div  class="des_user_title">status: </div>
+																				<span class="des_avt_answ userstatus red" >deactive</span>
+																			</div>
+																			</div>
+																			
+																			
+																		
+																		</div>
+																		
+																	
+																	</div>
+															</div>
+															</div>
+															
+															
+															
+															
+															
+															
+													</div>
 					
-				</div>
+				
+				
 			</div>
-		
-		
-		
 		</div>
+	
+	
+	
+	</div>
 		
 	</section>
 												
-												
 	<script type="text/javascript" language="javascript">
+		
 	
-	$('.inputtxtadd').hide();
-	 $('.addnew').on('click', function () {
-		 
-   $('.inputtxtadd').show();
-   
-})
-
-	
-	function chatpage(){
-	
-	 var h = window.innerHeight;
-	 var height= h - (40) ;
-	  $('.box-profile').height(height);
-}
-
 	
 
 $(window).on('resize', function(){
 
-	chatpage();
-	
 			var wwindow = $(window).width() ;
   if ( wwindow < 768) {
 
@@ -373,28 +448,7 @@ $(window).on('resize', function(){
 	
 	
 		$(window).ready(function() {
-			
-			
-			 $(function() {
- $('[data-toggle="popover"]').popover({
-   html: true,
-   content: function() {
-     return $('#popover-content').html();
-   }
- });
-	 $('body').on('click', function (e) {
-    $('[data-toggle=popover]').each(function () {
-
-        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-            $(this).popover('hide');
-        }
-    });
-	
-	    });
-
-    });
-
-	chatpage();
+		
 		$(".Event_photo").each(function(index, element){
 						
 								var we = $(element).width();
@@ -402,12 +456,7 @@ $(window).on('resize', function(){
 							$(".Event_photo").height(we/4);
 					})	});					
 					
-	$(function chatpage(){
-	
-	 var h = window.innerHeight;
-	 var height= h ;
-	  $('.col-a-profile').height(height);
-})
+
 
 	$(".Profile_photo").each(function(index, element){
 		var w = $(element).width();
@@ -460,7 +509,32 @@ $(window).on('resize', function(){
 });		
 
 
-				
+$(document).ready(function(){
+	
+	
+		 
+   $(function() {
+ $('.Btn_More').popover({
+   html: true,
+   content: function() {
+     return $(this).siblings('.list-group').html();
+   }
+ });
+	 $('body').on('click', function (e) {
+    $('.Btn_More').each(function () {
+
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+	
+    });
+	
+	    });
+
+    });
+
+	
+	})				
 	
 
 						

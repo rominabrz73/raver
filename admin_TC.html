@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
+<html lang="en" dir="ltr"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -34,15 +33,18 @@
   
     <link href="Content/css/_Layouts/NAVBAR/style.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/_Layouts/body.css" rel="stylesheet" type="text/css">
-	<link href="Content/css/admin_event.css" rel="stylesheet" type="text/css">
+	<link href="Content/css/admin_TC.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/event.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/edit_delete.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/favouriate.css" rel="stylesheet" type="text/css">
 	<link href="Content/css/admin_cola.css" rel="stylesheet" type="text/css">
   <script src="Scripts/raver/dropdown.js"></script>
-     <script src="Scripts/raver/editdelete.js" ></script>
-
   <script src="Scripts/raver/page.js"></script>
+  <script type="text/javascript" src="Scripts/raver/calender/moment.min.js"></script>
+<script type="text/javascript" src="Scripts/raver/calender/daterangepicker.min.js"></script>
+<script type="text/javascript" src="Scripts/raver/calender/js.js"></script>
+<link href="Content/css/daterangepicker.css" rel="stylesheet" type="text/css">  
+
 
 
 
@@ -177,7 +179,7 @@
 								<div class="box_home"></div>
 								<span>Dashbord</span>
 							  </div>
-							  <div class="item_admin  item_admin_active">
+							  <div class="item_admin  ">
 								<div class="box-event_ "></div>
 								<span>Event</span>
 							  </div>
@@ -202,9 +204,9 @@
 								<div class="music_box"></div>
 								<span>music</span>
 							  </div>
-							  <!--<div class="item_admin">
-								<div class="advrt_box"> </div>
-								<span>averts</span>
+							 <!-- <div class="item_admin ">
+								<div class="advrt_box "> </div>
+								<span>advertisement</span>
 							  </div>-->
 							  <div class="item_admin ">
 								<div class="fest_box"> </div>
@@ -214,10 +216,11 @@
 								<div class="approv_box "> </div>
 								<span>approved images</span>
 							  </div>
-							  <div class="item_admin ">
+							  <div class="item_admin  item_admin_active">
 								<div class="tc_box "> </div>
 								<span>T&C </span>
 							  </div>
+
 							  
 						</div>
 					</div>
@@ -228,235 +231,140 @@
 			<div class="col-md-9 col-sm-9  box-profile "  >
 				
 					<div class="container-fluid containerticket" >
-															<div class="containertickettitle" >
-																<h2>Tickets</h2>
-															</div>
-															
-															<div class="box_ticketevent">
-															
-													
-														
-																
-																<div class="Event_photo cover_ticket_photo" > 
-																	<div class="cover_img" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
-																	
-																		<div class="calender_event">
-																			<div>27</div>
-																			<div>July</div>
-																			
-																		</div>
-																						
-																	</div>
-																</div>
-																<div class="more">
-																<button href="#"  data-toggle="popover" data-placement="bottom"  class="Btn_More Gray_Text"  >&#8942;</button>
-																<div id="popover-content" class="list-group" style="display: none">
-																	<ul class="More_Item">
-																		<li> <a href="#"><i class="far fa-trash-alt"></i> Delete </a></li>
-																		<li> <a href="#"><i class="fas fa-edit"></i> Edit </a></li>
-																	</ul>
-																</div>
-														
-													
-												</div>
-																<div class="des_event_ticket">
-																	<div>Event</div>
-																	<div> This an event</div>
-																
-																</div>
-																<div class="box_btn_ticket" >
-																	<button class="btn_ticket"  value="" >Buys Tickets</button> 
-																</div>
-															
-															</div>
-															
-															<div class="box_ticketevent">
-																
-																<div class="Event_photo cover_ticket_photo"> 
-																	<div class="cover_img cover_img_edit" style=" background-image:url(Content/images/EHK-o-1@2x.png);" >
-																	<div class="profilpic_change ">
-							<form action="" method="post" enctype="multipart/form-data" >
-									<label >
-										<input  class="profilpic_change_input"type="file" camera="camera" accept="image/*" >
-									</label>
-							</form>
+						<div class="containertickettitle" >
+							<h2>Terms and Condition</h2>
 						</div>
-																		<div class="calender_event">
-																			<div>
-																				<select>
-																					<option>1</option>
-																					<option>2</option>
-																					<option>3</option>
-																					<option>4</option>
-																					<option>5</option>
-																					<option>6</option>
-																					<option>7</option>
-																					<option>8</option>
-																					<option>9</option>
-																					<option>10</option>
-																					<option>11</option>
-																					<option>12</option>
-																					<option>13</option>
-																					<option>14</option>
-																					<option>15</option>
-																					<option>16</option>
-																					<option>17</option>
-																					<option>18</option>
-																					<option>19</option>
-																					<option>20</option>
-																					<option>21</option>
-																					<option>22</option>
-																					<option>23</option>
-																					<option>24</option>
-																					<option>25</option>
-																					<option>26</option>
-																					<option>27</option>
-																					<option>28</option>
-																					<option>29</option>
-																					<option>30</option>
-
-
-
-
-																					
-																				</select>
-																			</div>
-																			<div>
-																				<select>
-																					<option>Jan</option>
-																					<option>Feb</option>
-																					<option>march</option>
-																					<option>april</option>
-																					<option>May</option>
-																					<option>June</option>
-																					<option>July</option>
-																					<option>Aug</option>
-																					<option>Sep</option>
-																					<option>Oct</option>
-																					<option>Nov</option>
-																					<option>Des</option>
-																					
-																					
-																					
-
-
-
-																					
-																				</select>
-																			</div>
-																			
-																		</div>				
-																	</div>
-																</div>
-																
-																<div class="des_event_ticket">
-																	<div>
-																		<input type="text" value="event" placeholder="Event Name" /> 
-																	</div>
-																	<div > <input type="text" class="des_event_ticket_" value="this is event" placeholder="Event..." /> </div>
-																
-																</div>
-																<div class="box_btn_ticket" >
-																	<button class="btn_ticket"  value="" >Edit Tickets</button> 
-																</div>
-																 
-															
-															</div>
-															<div class="box_ticketevent">
-																
-																<div class="Event_photo cover_ticket_photo"> 
-																	<div class="cover_img cover_img_edit" style=" background-image:url(Content/images/profile/add_photo.png);background-size:contain" >
-																	<div class="profilpic_change ">
-							<form action="" method="post" enctype="multipart/form-data" >
-									<label >
-										<input  class="profilpic_change_input"type="file" camera="camera" accept="image/*" >
-									</label>
-							</form>
+						<div >
+						
+							<div class="repmsgbox tbtc" >
+							<table >
+								<thead>
+								<td>
+									<div class="headreptabel pointer">
+										<span class="reptitle">Vertion : </span>
+										<span class="opc_8 pointer">
+											<input type="text" placeholder="Version" value="">
+										</span>
+									</div>
+									
+								</td>
+								
+								<td>
+									<div class="headreptabel">
+										<span  class="reptitle">Date :</span>
+										<span class="opc_8">
+										<input type="text" class="det_calender" value="" placeholder="MM/DD/YYYY">
+										</span>
+									</div>
+								</td>
+								</thead>
+								
+								
+								
+								<tr >
+									<td colspan="2">
+									<textarea  class="txt_tc" name="aaaaaaaaaaaaaaaaa" placeholder="Share your interests and experties" ></textarea>
+									</td>
+								
+								</tr>
+								
+								<tr>
+									<td colspan="2">
+								<div class="box_btn_chance">
+									<button class="btn_chance">Save</button>
+								
+								</div>
+									</td>
+								</tr>
+							
+							</table>
+							
+							</div>
+							
+							
+							<div class="repmsgbox tbtc" >
+							
+							<div class="activetitle">
+							<div>
+							<h4>Active Terms & Condition</h4>
+							</div>
+							<div class="box_btn_activetc">
+									<button class="btn_chance">Revert last T&C </button>
+								
+								</div>
+							</div>
+							<table >
+								<thead>
+								<td>
+									<div class="headreptabel pointer">
+										<span class="reptitle">Vertion : </span>
+										<span class="opc_8 pointer">2</span>
+									</div>
+									
+								</td>
+								
+								<td>
+									<div class="headreptabel">
+										<span  class="reptitle">Date :</span>
+										<span class="opc_8">2021/01/05</span>
+									</div>
+								</td>
+								</thead>
+								
+								
+								
+								<tr >
+									<td colspan="3">
+									<div class="msgrep">
+									
+									Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage
+									
+									</div>
+									</td>
+								
+								</tr>
+								
+								
+							
+							</table>
+							</div>
+							<div class="repmsgbox tbtc"  >
+							<table >
+								<thead>
+								<td>
+									<div class="headreptabel pointer">
+										<span class="reptitle">Vertion : </span>
+										<span class="opc_8 pointer">2</span>
+									</div>
+									
+								</td>
+								
+								<td>
+									<div class="headreptabel">
+										<span  class="reptitle">Date :</span>
+										<span class="opc_8">2021/01/05</span>
+									</div>
+								</td>
+								</thead>
+								
+								
+								
+								<tr >
+									<td colspan="3">
+									<div class="msgrep">Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage
+									Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessageMessage Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage
+									
+									Message Message Message Message MessageMessage MessageMessageMessageMessageMessageMessageMessageMessageMessageMessage </div>
+									</td>
+								
+								</tr>
+								
+								
+							
+							</table>
+							</div>
 						</div>
-																		<div class="calender_event">
-																			<div>
-																				<select>
-																					<option>1</option>
-																					<option>2</option>
-																					<option>3</option>
-																					<option>4</option>
-																					<option>5</option>
-																					<option>6</option>
-																					<option>7</option>
-																					<option>8</option>
-																					<option>9</option>
-																					<option>10</option>
-																					<option>11</option>
-																					<option>12</option>
-																					<option>13</option>
-																					<option>14</option>
-																					<option>15</option>
-																					<option>16</option>
-																					<option>17</option>
-																					<option>18</option>
-																					<option>19</option>
-																					<option>20</option>
-																					<option>21</option>
-																					<option>22</option>
-																					<option>23</option>
-																					<option>24</option>
-																					<option>25</option>
-																					<option>26</option>
-																					<option>27</option>
-																					<option>28</option>
-																					<option>29</option>
-																					<option>30</option>
-
-
-
-
-																					
-																				</select>
-																			</div>
-																			<div>
-																				<select>
-																					<option>Jan</option>
-																					<option>Feb</option>
-																					<option>march</option>
-																					<option>april</option>
-																					<option>May</option>
-																					<option>June</option>
-																					<option>July</option>
-																					<option>Aug</option>
-																					<option>Sep</option>
-																					<option>Oct</option>
-																					<option>Nov</option>
-																					<option>Des</option>
-																					
-																					
-																					
-
-
-
-																					
-																				</select>
-																			</div>
-																			
-																		</div>				
-																	</div>
-																</div>
-																
-																<div class="des_event_ticket">
-																	<div>
-																		<input type="text" value="" placeholder="Event Name" /> 
-																	</div>
-																	<div > <input type="text" class="des_event_ticket_" value="" placeholder="Event..." /> </div>
-																
-																</div>
-																<div class="box_btn_ticket" >
-																	<button class="btn_ticket"  value="" >add Tickets</button> 
-																</div>
-																 
-															
-															</div>
-															
-															
-													</div>
+					</div>
 					
 				
 				
@@ -470,9 +378,12 @@
 	</section>
 												
 	<script type="text/javascript" language="javascript">
+		
 	
 	
+
 $(window).on('resize', function(){
+	
 	
 			var wwindow = $(window).width() ;
   if ( wwindow < 768) {
@@ -542,6 +453,7 @@ $(window).on('resize', function(){
 		
 							$(".Event_photo").height(we/4);
 					})	});					
+	
 
 	$(".Profile_photo").each(function(index, element){
 		var w = $(element).width();
@@ -594,7 +506,32 @@ $(window).on('resize', function(){
 });		
 
 
-				
+$(document).ready(function(){
+	
+	
+		 
+   $(function() {
+ $('.Btn_More').popover({
+   html: true,
+   content: function() {
+     return $(this).siblings('.list-group').html();
+   }
+ });
+	 $('body').on('click', function (e) {
+    $('.Btn_More').each(function () {
+
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+	
+    });
+	
+	    });
+
+    });
+
+	
+	})				
 	
 
 						

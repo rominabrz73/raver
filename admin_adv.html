@@ -42,7 +42,31 @@
      <script src="Scripts/raver/editdelete.js" ></script>
 
 
+<style>
+.det_search_select{
+	 border: solid #CCCCCC 1px !important;
+    font-size: 13px;
+	 cursor: pointer;
+    height: 30px;
+	 border-radius: 5px 0 0 5px;
+	 color: #000;
+    background-color: #cccccc;
+   
+    
+ }
+.det_search_select>option{
+	background-color: #fff;}
+ .adminsearchbox{
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;}
+.adminsearchbox > .det_search_input_1{
+	border-radius: 0px 5px 5px 0px  !important;}
 
+
+</style>
 
   </head>
   <body>
@@ -134,10 +158,15 @@
 			  </li>
 			  	<li><a href="#" title="link"><div class="prof_imglink"> </div></a></li>
 			 
-              	<li  class="searchbox">
+              	<li  class="searchbox adminsearchbox">
+					<select class="det_search_select">
+						<option>name</option>
+						<option>Email</option>
+						<option>username</option>
+														
+					</select>	
+					<input type="text" class="det_search_input_1" placeholder="Search by... " />
 					
-					<input type="text" class="det_search_input_1" placeholder="Search... " />
-						
 					
 				</li>
 				

@@ -2,6 +2,8 @@ body{
 	      overflow: hidden;
   
 }
+.box-profile{
+overflow:auto}
 section{
 	      
     background: url(../../images/background.png);

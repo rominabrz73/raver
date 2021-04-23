@@ -142,6 +142,29 @@
    
    background-color:#fff
 }
+.tc_box {
+    width: 35px;
+    height: 35px;
+  
+    background-image:url(../images/tab-bar/Tc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+   background-color:#fff
+}
+.approv_box{
+    width: 35px;
+    height: 35px;
+  
+    background-image: url(../images/profile/approved.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+   background-color:#fff
+}
+
 .music_box {
     width: 30px;
     height: 30px;

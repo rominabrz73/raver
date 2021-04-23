@@ -1,3 +1,26 @@
+.det_search_select{
+	 border: solid #CCCCCC 1px !important;
+    font-size: 13px;
+	 cursor: pointer;
+    height: 30px;
+	 border-radius: 5px 0 0 5px;
+	 color: #000;
+    background-color: #cccccc;
+   
+    
+ }
+.det_search_select>option{
+	background-color: #fff;}
+ .adminsearchbox{
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;}
+.adminsearchbox > .det_search_input_1{
+	border-radius: 0px 5px 5px 0px  !important;}
+
+
 .prof_imglink{
 	background-image: url(../images/tab-bar/person-white.png);
 	width:20px;
@@ -29,7 +52,7 @@
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover}
-a:focus{
+.mr-auto>.active >a:focus{
 	border:3px solid #F0F;
 	padding:5px
 	
@@ -371,9 +394,7 @@ box-shadow: 2px 2px 2px #ccc}
 	 margin: 5px;
     border-radius: 10px;
 	font-size:12px }
-	 .setting_item_box:hover{
-		background-color:#F9F
-		 }
+	
 	.setting_item_{
 		width:200px}
 
@@ -436,7 +457,14 @@ ul > .active {
 	height:20px;
 	background-repeat:no-repeat;
 	background-position:center;
-	background-size:cove;   margin: 7px;}
+	background-size:cover;   margin: 7px;}
+	.boxtc_{
+		background-image:url(../images/tab-bar/Tc.png);
+	width:30px;
+	height:30px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;  }
 	 .box-noti-datetxt{
 		 
 	   width: 75%;
@@ -466,6 +494,7 @@ ul > .active {
 }
 .searchbox{
 	 position: absolute;
+	 display:flex;
     right: 5px;
 	    top: 12px;}
 #topnavbar{
@@ -476,7 +505,32 @@ ul > .active {
 	float:left !important}
 .date_noti_userbox{
 	width:90% !important}
+.logoraver{
+	background-image:url(../images/tab-bar/raverdating%20logo.png);
+	margin-top:-17px;
+    width: 60px;
+    height: 60px;
+	border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
 
 @media (max-width:500px){
 	.det_search_input_1{
-		width:150px}}
+		width:100px}
+		.adminsearchbox > select{
+			width:60px}
+			
+		.adminsearchbox > .det_search_input_1{
+			width:90px}
+			ul > .active {
+   
+    MIN-WIDTH: 40PX;
+}
+.logoraver{
+	width:50px;
+	height:50px}
+.dropdown-content{
+	left:0 !important}
+
+		}

@@ -1,0 +1,88 @@
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+   
+    direction: ltr;
+    cursor: default;
+  
+}
+button:focus {
+    outline: none !important;
+   
+}
+
+
+.none{
+	display:none !important}
+
+
+.box_ticketevent{
+	cursor:pointer}
+.red{
+	color:#F00}
+
+
+.btn-filter_box {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    
+    margin: 10px 0;
+}
+.containertickettitle {
+    margin-bottom: 30px;
+}
+.btn-filter {
+    width: 100%;
+    color: #fff;
+    
+    border-radius: 5PX;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    opacity: 0.7;
+	font-size:16px;
+    background: rgb(113,201,235);
+    background: -moz-linear-gradient(99deg, rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: -webkit-linear-gradient( 
+99deg
+ , rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    background: linear-gradient( 
+99deg
+ , rgba(113,201,235,1) 20%, rgba(140,84,117,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#71c9eb",endColorstr="#8c5475",GradientType=1);
+}
+.select:before {
+    content: "\2713";
+    font-weight: bold;
+    color: #393;
+	font-size:20px
+}
+.back-none{
+	background:#fff !important}
+
+.profilpic_change >label{
+	cursor:pointer}
+.box-profile{
+	padding:10px;margin:0 auto; overflow:auto}
+
+.profile_useradmin{
+	margin-left:2px;
+	background-image:url(../images/asset-13.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	margin:auto}
+.boxappr{
+	padding:10px;
+	box-shadow:3px 3px 3px 3px #ccc;}
+.profilpic_change{
+	margin-top:20px}
+.cover_adv_img{
+	background-image:url(../images/EHK-o-1@2x.png);}

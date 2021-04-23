@@ -43,7 +43,7 @@
   <script src="Scripts/raver/dropdown.js"></script>
    
   <script src="Scripts/raver/music.js"></script>
-
+ <script src="Scripts/raver/page.js"></script>
 
 
   </head>
@@ -57,12 +57,16 @@
 
           <div class="navbar-collapse" id="topnavbar">
             <ul class=" mr-auto navbar-menu" >
-           
+              <li>
+						<div class="logoraver"></div>
+					
+				</li>
               <li class="active"><a href="#" title="About"><div class="msg_imglink"> </div></a>
 			  
 			  
 			  	<ul class="dropdown drop-none" >
 					<li class="titledropdown">Messages</li>
+					
 					<li class="mar-5">
 						<div class="box_msg " >
 							<div class="img_msg " ></div>
@@ -136,10 +140,15 @@
 			  </li>
 			  	<li><a href="#" title="link"><div class="prof_imglink"> </div></a></li>
 			 
-              	<li  class="searchbox">
+              	<li  class="searchbox adminsearchbox">
+					<select class="det_search_select">
+						<option>name</option>
+						<option>Email</option>
+						<option>username</option>
+														
+					</select>	
+					<input type="text" class="det_search_input_1" placeholder="Search by... " />
 					
-					<input type="text" class="det_search_input_1" placeholder="Search... " />
-						
 					
 				</li>
 				
@@ -193,13 +202,21 @@
 								<div class="music_box"></div>
 								<span>music</span>
 							  </div>
-							  <div class="item_admin">
+							  <!--<div class="item_admin">
 								<div class="advrt_box"> </div>
 								<span>averts</span>
-							  </div>
+							  </div>-->
 							  <div class="item_admin ">
 								<div class="fest_box"> </div>
 								<span>festival</span>
+							  </div>
+							   <div class="item_admin ">
+								<div class="approv_box "> </div>
+								<span>approved images</span>
+							  </div>
+							  <div class="item_admin ">
+								<div class="tc_box "> </div>
+								<span>T&C </span>
 							  </div>
 							  
 						</div>
@@ -358,18 +375,13 @@ $(".addbox>.addnew").each(function(index, element){
   })
 
 	
-	function chatpage(){
-	
-	 var h = window.innerHeight;
-	 var height= h - (40) ;
-	  $('.box-profile').height(height);
-}
 
 	
 
 $(window).on('resize', function(){
 
-	chatpage();
+	
+	
 	
 			var wwindow = $(window).width() ;
   if ( wwindow < 768) {
@@ -433,7 +445,8 @@ $(window).on('resize', function(){
 	
 		$(window).ready(function() {
 			
-			
+				
+	
 			 $(function() {
  $('[data-toggle="popover"]').popover({
    html: true,
@@ -452,8 +465,6 @@ $(window).on('resize', function(){
 	    });
 
     });
-
-	chatpage();
 		$(".Event_photo").each(function(index, element){
 						
 								var we = $(element).width();
@@ -461,12 +472,7 @@ $(window).on('resize', function(){
 							$(".Event_photo").height(we/4);
 					})	});					
 					
-	$(function chatpage(){
-	
-	 var h = window.innerHeight;
-	 var height= h ;
-	  $('.col-a-profile').height(height);
-})
+
 
 	$(".Profile_photo").each(function(index, element){
 		var w = $(element).width();

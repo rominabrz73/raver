@@ -54,6 +54,7 @@ default parameter Object:{
 	,text       :''
 };
 */
+
 function det_alert1_item_add( noticeObj/*={}*/ ){
 	if(typeof(noticeObj)==='undefined'){ noticeObj = {}; }
 	let notify = {};
