@@ -515,6 +515,15 @@ ul > .active {
     background-position: center;
     background-size: cover;}
 
+.logoraver{
+	background-image:url(../images/tab-bar/raverdating%20logo.png);
+	margin-top:-17px;
+    width: 60px;
+    height: 60px;
+	border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
 @media (max-width:500px){
 	.det_search_input_1{
 		width:100px}

@@ -188,3 +188,12 @@
    background-color:#fff}
 .item_admin>span{
 	margin:auto 5px}
+.lgbox{
+	width: 40px;
+    height: 40px;
+  
+    background-image: url(../images/tab-bar/logout.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
